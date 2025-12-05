@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C2B743F963FF56C0}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_Lensglass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

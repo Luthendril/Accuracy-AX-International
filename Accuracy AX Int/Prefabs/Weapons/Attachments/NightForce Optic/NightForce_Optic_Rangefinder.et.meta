@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B77B9D53031DB32B}Prefabs/Weapons/Attachments/NightForce Optic/NightForce_Optic_Rangefinder.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Emissive 0 0 0 1
+ AOScale 0.147
+ BCRMap "{9FD36A0A00A7B805}Assets/Attachments/Noman_Suppressor/data/AXSR_Silencer_BaseColor.edds"
+ NormalPower 2
+ NMOMap "{C04873BF9488122A}Assets/Attachments/Noman_Suppressor/data/AXSR_Silencer_Normal_DX.edds"
+ DetailNormalPower 2
+ DetailNormalMap "{811DEEDDDAFCF25C}Assets/Attachments/Noman_Suppressor/data/AXSR_Silencer_Normal_GL.edds"
+}

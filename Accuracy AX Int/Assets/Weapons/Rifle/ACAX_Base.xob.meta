@@ -1,0 +1,131 @@
+MetaFileClass {
+ Name "{E5D9CE8EA75DAAB2}Assets/Weapons/Rifle/ACAX_Base.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6702C7B2373F5966}" {
+     SourceMaterial "Barrel"
+     AssignedMaterial "{B36530FB970438EE}Assets/Weapons/Rifle/Data/Barrel.emat"
+    }
+    MaterialAssignClass "{6704BD2A2B8B6638}" {
+     SourceMaterial "ReaceverUpper"
+     AssignedMaterial "{FE10D3F23D1559E0}Assets/Weapons/Rifle/Data/ReaceverUpper.emat"
+    }
+    MaterialAssignClass "{6704BD2A2B8B6903}" {
+     SourceMaterial "Reaceverower"
+     AssignedMaterial "{5A5F0FC5B3C19C26}Assets/Weapons/Rifle/Data/Reaceverower.emat"
+    }
+    MaterialAssignClass "{6702C7B2373F5ADB}" {
+     SourceMaterial "Butt"
+     AssignedMaterial "{6E499AEDF6279394}Assets/Weapons/Rifle/Data/Butt.emat"
+    }
+    MaterialAssignClass "{6702C7B2373F5AB0}" {
+     SourceMaterial "Picatiny"
+     AssignedMaterial "{42E67DA296EEABB4}Assets/Weapons/Rifle/Data/Picatiny.emat"
+    }
+    MaterialAssignClass "{6702C7B2373F5A96}" {
+     SourceMaterial "Handguard"
+     AssignedMaterial "{165A088BE779FC8F}Assets/Weapons/Rifle/Data/Handguard.emat"
+    }
+   }
+   MeshParams {
+    MeshParam AXSR_Barrel {
+    }
+    MeshParam AXSR_Bolt01 {
+    }
+    MeshParam AXSR_Bolt02 {
+    }
+    MeshParam AXSR_Butt {
+    }
+    MeshParam AXSR_Handguard01 {
+    }
+    MeshParam AXSR_Picatiny01 {
+    }
+    MeshParam AXSR_Picatiny02 {
+    }
+    MeshParam AXSR_Reacever_Lower {
+    }
+    MeshParam AXSR_Reacever_Upper {
+    }
+    MeshParam AXSR_Safety {
+    }
+    MeshParam AXSR_Trigger {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_Barrel {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Buttstock {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_HandGuard {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_LowerReceiver {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_UpperReceiver {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Weapon_FireGeo {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6702C7B2373B50F4}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6702C7B2373B5065}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6702C7B2373B5031}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6702C7B2373B51FB}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6702C7B2373B51DF}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6702C7B2373B51BD}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

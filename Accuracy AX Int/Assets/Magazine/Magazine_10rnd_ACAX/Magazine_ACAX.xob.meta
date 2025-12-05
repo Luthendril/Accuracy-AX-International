@@ -1,0 +1,62 @@
+MetaFileClass {
+ Name "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6708C3FB71C4F635}" {
+     SourceMaterial "Mag"
+     AssignedMaterial "{5AA8DC12E74F2643}Assets/Magazine/Magazine_10rnd_ACAX/data/Mag.emat"
+    }
+    MaterialAssignClass "{6708C3FB71C4F7D9}" {
+     SourceMaterial "Ammo"
+     AssignedMaterial "{3C8ADB531EF1D865}Assets/Magazine/Magazine_10rnd_ACAX/data/Ammo.emat"
+    }
+   }
+   MeshParams {
+    MeshParam AXSR {
+    }
+    MeshParam AXSR_Ammo01 {
+    }
+    MeshParam AXSR_Ammo02 {
+    }
+    MeshParam AXSR_Mag01 {
+    }
+    MeshParam AXSR_Mag02 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_MagazineWell {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6708C3FB71C04949}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6708C3FB71C04AB1}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6708C3FB71C04A9A}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6708C3FB71C04A78}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6708C3FB71C04A47}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6708C3FB71C04A25}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

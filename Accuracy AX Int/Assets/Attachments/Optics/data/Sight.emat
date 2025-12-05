@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Emissive 0 0 0 1
+ AOScale 0.2
+ BCRMap "{1D0E537BA8469987}Assets/Attachments/Optics/data/AXSR_Sight_BaseColor.edds"
+ NormalPower 2
+ NMOMap "{42954ACE3C6933A8}Assets/Attachments/Optics/data/AXSR_Sight_Normal_DX.edds"
+ DetailNormalPower 2
+ DetailNormalMap "{03C0D7AC721DD3DE}Assets/Attachments/Optics/data/AXSR_Sight_Normal_GL.edds"
+}

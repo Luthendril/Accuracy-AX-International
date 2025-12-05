@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Emissive 0 0 0 1
+ AOScale 0.2
+ BCRMap "{C4665E3821FDF250}Assets/Attachments/Optics/data/AXSR_Sight Mount Picatiny_BaseColor.edds"
+ NormalPower 2
+ NMOMap "{9BFD478DB5D2587F}Assets/Attachments/Optics/data/AXSR_Sight Mount Picatiny_Normal_DX.edds"
+ DetailNormalPower 2.078
+ DetailNormalMap "{DAA8DAEFFBA6B809}Assets/Attachments/Optics/data/AXSR_Sight Mount Picatiny_Normal_GL.edds"
+}

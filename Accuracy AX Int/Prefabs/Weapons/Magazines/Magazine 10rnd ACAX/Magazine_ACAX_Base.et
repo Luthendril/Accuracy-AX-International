@@ -1,0 +1,24 @@
+GenericEntity {
+ ID "6708C3FA7694F483"
+ components {
+  Persistence "{6708D5FB4CC3B7A2}" {
+  }
+  AICombatPropertiesComponent "{6708D5FB498F25B9}" {
+   Priority 33
+   UsedAgainst 0x17 0
+  }
+  MagazineComponent "{6708D69037178B1A}" {
+   MagazineWell BaseMagazineWell "{6708E35AFECF8C82}" {
+   }
+   MaxAmmo 10
+   AmmoConfig "{848D5DE7B2E307A1}Configs/Weapons/Ammo/Ammo_308Win.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{6708C3FBA2EE4FD7}" {
+   Object "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
+  }
+ }
+ coords 1776.681 40 2867.949
+}

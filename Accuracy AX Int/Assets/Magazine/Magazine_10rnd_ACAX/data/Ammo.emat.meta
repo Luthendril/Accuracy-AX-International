@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3C8ADB531EF1D865}Assets/Magazine/Magazine_10rnd_ACAX/data/Ammo.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
