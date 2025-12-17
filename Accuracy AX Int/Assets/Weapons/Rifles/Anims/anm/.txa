@@ -1,0 +1,20 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 4
+ $node "w_trigger" {
+  $keys q {
+   $frame 0 1 {
+    #q -0.06450842 0 0 0.99791718
+   }
+   $frame 2 3 {
+    #q 0.06599462 0 0 0.99782002
+   }
+   $frame 4 {
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "Weapons_Trigger"
+ }
+}

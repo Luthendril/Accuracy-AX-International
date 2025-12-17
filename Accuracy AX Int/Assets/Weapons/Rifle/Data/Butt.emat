@@ -1,4 +1,4 @@
-MatPBRBasic {
+MatPBRBasic "{6E499AEDF6279394}Assets/Weapons/Rifle/Data/Butt.emat" {
  AOScale 0.2
  BCRMap "{188CCC08536921FA}Assets/Weapons/Rifle/Data/AXSR_Butt_BaseColor.edds"
  NMOMap "{4717D5BDC7468BD5}Assets/Weapons/Rifle/Data/AXSR_Butt_Normal_DX.edds"

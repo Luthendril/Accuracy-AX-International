@@ -1,4 +1,4 @@
-MatPBRBasic {
+MatPBRBasic "{FE10D3F23D1559E0}Assets/Weapons/Rifle/Data/ReaceverUpper.emat" {
  AOScale 0.2
  BCRMap "{FDC5C50E8645EB4A}Assets/Weapons/Rifle/Data/AXSR_Reacever Upper_BaseColor.edds"
  NMOMap "{A25EDCBB126A4165}Assets/Weapons/Rifle/Data/AXSR_Reacever Upper_Normal_DX.edds"

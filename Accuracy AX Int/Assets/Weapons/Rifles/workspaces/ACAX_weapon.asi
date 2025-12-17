@@ -1,0 +1,88 @@
+AnimSetInstanceSource "{5E9E224E83BCBC88}" {
+ Template "{E9723080A46297CD}Assets/Weapons/Rifles/workspaces/RHS_M40.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Reload.Pne.ReloadActionBoltOpen" {
+   Resource "{95702FA03426C2A5}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_pne_rack_bolt.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Reload_InsertMag" {
+   Resource "{8CD5205B631C6626}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_erc_insert_mag.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Reload_InsertMag" {
+   Resource "{38423DE22CBF4282}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_pne_insert_mag.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Reload_RemoveMag" {
+   Resource "{47B15FAFA56A544C}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_erc_remove_mag.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Reload_RemoveMag" {
+   Resource "{F3264216EAC970E8}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_pne_remove_mag.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.ReloadActionBolt" {
+   Resource "{6E3F3828C84C90A9}Assets/Weapons/Rifles/Anims/anm/w_rfl_ACAX_erc_rack_bolt.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.ReloadActionBolt" {
+   Resource "{95702FA03426C2A5}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_pne_rack_bolt.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Trigger" {
+   Resource "{C5B2AC9F39721B9D}Assets/Weapons/Rifles/Anims/anm/w_rfl_ACAX_trigger.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Trigger" {
+   Resource "{93407A555BA3AA61}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_trigger.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.ReloadActionBoltOpen" {
+   Resource "{6E3F3828C84C90A9}Assets/Weapons/Rifles/Anims/anm/w_rfl_ACAX_erc_rack_bolt.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Idle" {
+   Resource "{6C94ACDDD9E5F444}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_erc_sight.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Idle" {
+   Resource "{6C94ACDDD9E5F444}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_erc_sight.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_On" {
+   Resource "{64C0B93BCA8C9AC5}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_switch_mode_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Safety" {
+   Resource "{4556C0672F8572FB}Assets/Weapons/Rifles/m40a5/Anims/anm/w_m40A5_safety.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Sight" {
+   Resource "{6C94ACDDD9E5F444}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_erc_sight.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Sight" {
+   Resource "{6C94ACDDD9E5F444}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_erc_sight.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.BoltPose" {
+   Resource "{292614C645EFF3F8}Assets/Weapons/Rifles/Anims/anm/w_rfl_ACAX_bolt_pose.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_On" {
+   Resource "{64C0B93BCA8C9AC5}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_switch_mode_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Finger_trigger_in" {
+   Resource "{81D5C58113B55AE1}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_finger_trigger_in.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Finger_trigger_in" {
+   Resource "{81D5C58113B55AE1}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_finger_trigger_in.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Finger_trigger_out" {
+   Resource "{E59FED621FDB9C80}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_finger_trigger_out.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Finger_trigger_out" {
+   Resource "{E59FED621FDB9C80}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_finger_trigger_out.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Idle_finger" {
+   Resource "{6C94ACDDD9E5F444}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_erc_sight.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Idle_finger" {
+   Resource "{6C94ACDDD9E5F444}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_erc_sight.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_Off" {
+   Resource "{64C0B93BCA8C9AC5}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_switch_mode_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_Off" {
+   Resource "{64C0B93BCA8C9AC5}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_switch_mode_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Safety" {
+   Resource "{1AF91ECC4DE18CC5}Assets/Weapons/Rifles/Anims/anm/w_ACAX_safety.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{59F8875C18E23C38}" {
+ }
+}

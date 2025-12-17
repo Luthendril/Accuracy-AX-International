@@ -1,0 +1,16 @@
+MatPBRBasicGlass "{39C2A3A521FE9A1B}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_ARTII_Lensglass.emat" {
+ Color 0.152 0.196 0.192 1
+ AlphaTest 0.05
+ AlphaMul 1.036
+ GlobalMapsUVTransform MatUVTransform "{56D899604C131388}" {
+  TilingU 0.97
+  TilingV 0.97
+  OffsetU 0.015
+  OffsetV 0.012
+ }
+ DetailNormalPower 0.011
+ DetailNormalMapUVTransform MatUVTransform "{56D6B019065617CF}" {
+  TilingU 4
+  TilingV 4
+ }
+}

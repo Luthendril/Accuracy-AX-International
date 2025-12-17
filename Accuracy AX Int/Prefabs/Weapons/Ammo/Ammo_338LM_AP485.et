@@ -1,0 +1,16 @@
+Projectile : "{34CBDF68B826C5DD}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x54r_AP_7N14.et" {
+ ID "5494AB43AD13B6EB"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 905
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 150
+    }
+   }
+   PenetrationDepth 12.5
+   PenetrationSpeed 875
+  }
+ }
+ coords -1.234 0.028 0.145
+}

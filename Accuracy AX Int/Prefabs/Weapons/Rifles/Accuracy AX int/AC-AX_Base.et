@@ -7,15 +7,13 @@ GenericEntity {
   }
   WeaponSoundComponent "{67089C8943C50696}" {
    Filenames {
-    "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{1B5D78EC81243F26}Sounds/Weapons/Rifles/M40/Weapons_Rifles_M40_Shot.acp" "{106F085D294D2E03}Sounds/Weapons/Rifles/M40/Weapons_Rifles_M40_handling.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{D335D51093EA8456}Sounds/Weapons/Rifles/AK74M/Suppressed/RHS_Weapons_Rifles_AK74M_Suppressed.acp"
+    "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{B016A4FFD78AD674}Sounds/Weapons/Rifles/Accuracy AX Int/Weapons_Rifles_ACAX_Shot.acp" "{A15445BB4AE46712}Sounds/Weapons/Rifles/Accuracy AX Int/Handling/Weapons_Rifles_ACAX_handling.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{D335D51093EA8456}Sounds/Weapons/Rifles/AK74M/Suppressed/RHS_Weapons_Rifles_AK74M_Suppressed.acp"
    }
    DistanceManagement 0
   }
   MeshObject "{6704BD2392D48731}" {
    Object "{E5D9CE8EA75DAAB2}Assets/Weapons/Rifle/ACAX_Base.xob"
    InheritVisibility 1
-  }
-  RHS_WeaponRplComponent "{67089C89E8E02B44}" {
   }
   RigidBody "{67089C89FD76B472}" {
    Mass 3
@@ -70,7 +68,7 @@ GenericEntity {
       DeploymentPoints {
        PivotPointInfoItem "{5E0E3155DB81CDC5}" {
         "Point info" DeploymentPointInfo deployment {
-         Offset 0 0.0835 0.5879
+         Offset 0 0.0497 0.4994
         }
         StabilizationSize 0.05 0.1 0.55
        }
@@ -136,8 +134,8 @@ GenericEntity {
     AttachmentSlotComponent "{6708B95B25D08664}" {
      AttachmentSlot RHS_SlidingInventoryStorageSlot Scope {
       PivotID "slot_optics"
-      Offset 0 0.0037 0
       ChildPivotID "snap_weapon"
+      Prefab "{0A80D238F2DC97C7}Prefabs/Weapons/Attachments/Optics/NF3-12x50/NightForce_Optic_Base.et"
       m_fMaximumPositiveSlideOffset 0.1
       m_fMaximumNegativeSlideOffset -0.02
      }
@@ -155,97 +153,140 @@ GenericEntity {
      ShowInInspection 1
     }
     AttachmentSlotComponent "{6708B95B530F8951}" {
+     AttachmentSlot InventoryStorageSlot Bipod {
+      PivotID "slot_underbarrel"
+     }
+     AttachmentType AttachmentRIS1913Bipod "{6712A5E428F5CCE6}" {
+     }
+     ShowInInspection 1
     }
     SightsComponent "{6708B95B2ABC3357}" {
      SightsPosition PointInfo "{6708C3F775F3485C}" {
       PivotID "eye"
+      Offset 0 0.0094 -0.0791
      }
      SightsRanges {
       SightRangeInfo "{6708E35D9B612481}" {
        Range 0 100
       }
+      SightRangeInfo "{6716C6F7CAF6C8A0}" {
+       Range 0.1 200
+      }
+      SightRangeInfo "{6716C6CEF7EFE9CC}" {
+       Range 0.2 300
+      }
+      SightRangeInfo "{6716C6F7DDF49CE5}" {
+       Range 0.3 400
+      }
+      SightRangeInfo "{6716C6F7A7C5A980}" {
+       Range 0.4 500
+      }
+      SightRangeInfo "{6716C6F7A74A8251}" {
+       Range 0.5 600
+      }
+      SightRangeInfo "{6716C6F7AF164383}" {
+       Range 0.6 700
+      }
+      SightRangeInfo "{6716C6F7A881D295}" {
+       Range 0.7 800
+      }
+      SightRangeInfo "{6716C6F7A83E50C6}" {
+       Range 0.8 900
+      }
+      SightRangeInfo "{6716C6F7BE2EF271}" {
+       Range 0.9 1000
+      }
+      SightRangeInfo "{6716C6F7BE6E6947}" {
+       Range 1 1200
+      }
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{6716C6D5F5C3E492}" {
+      m_fZoomMax 0.1
+     }
+     SightsPointFront PointInfo "{6716C6D0A8FECFEF}" {
+      PivotID "eye"
+      Offset 0.0001 0.0103 0.566
      }
      SightsPointRear PointInfo "{6708E35A6D0B9E48}" {
       PivotID "eye"
+      Offset 0.0001 0.0103 0.1251
      }
      SightsSwitchSkip 1
+     ZeroingGenerator BaseZeroingGenerator "{6716C6C0968E1989}" {
+      ZeroRaiseToEye 1
+     }
     }
-    MuzzleComponent "{6708B95B31C30346}" {
+    MuzzleComponent "{6716C6C38763777F}" : "{4FC83D9226751C42}Prefabs/Weapons/Core/Components/MuzzleComponent_Base.ct" {
      components {
-      AttachmentSlotComponent "{6708B95B15E8F306}" {
+      AttachmentSlotComponent "{6716C6C0E79FD833}" {
        AttachmentSlot InventoryStorageSlot Muzzle {
         PivotID "slot_barrel_muzzle"
-        ChildPivotID "slot_weapon"
+        Offset 0 0 -0.0235
+        MergePhysics 1
+        Prefab "{91D5624C80CD29AB}Prefabs/Weapons/Attachments/Muzzle/Zenit_DTK2_Muzzle/RHS_AK74M_Zenit_DTK1_Muzzle_Base.et"
+       }
+       AttachmentType AttachmentMuzzle762_54 "{6716C6CB28DB2129}" {
        }
        ShowInInspection 1
       }
-      CaseEjectingEffectComponent "{6708B95B1340C224}" {
-       Enabled 1
-       ParticleEffect "{6A0F068A792EA37C}Particles/Weapon/Casing_762x51.ptc"
-       EffectPosition EntitySlotInfo desc {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{83DC2DCAF6EDC75F}Particles/Weapon/Casing_762x54.ptc"
+       EffectPosition EntitySlotInfo Eject {
         PivotID "barrel_chamber"
-        Offset 0 0 -0.0662
+        Offset 0 0 -0.0723
         Angles 0 90 0
        }
-       HasSound 0
       }
-      SCR_MuzzleEffectComponent "{6708B95D292368CA}" {
-      }
-     }
-     MuzzleEndPositions {
-      PointInfo "{6708C3F7007EBC6A}" {
-       PivotID "barrel_muzzle"
-      }
-     }
-     ProjectileSpawnPositions {
-      PointInfo "{6708C3F7E5E741BE}" {
-       PivotID "barrel_chamber"
-       Offset 0.0077 0 0.0173
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{C4207543B467D89C}Particles/Weapon/Muzzle_SVD.ptc"
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        Offset 0 0 0.003
+       }
+       OverrideByAttachment 1
       }
      }
-     ChamberedAmmo 1
      FireModes {
-      BaseFireMode "{6708C3F7D1CFB94A}" {
-       MaxBurst 0
-       MaxSalvo 0
-       RoundsPerMinute 0
-       UIName "Safe"
-       "Gamepad Trigger effect" GamepadTriggerEffect "{6708C3F7B0811E55}" {
+      BaseFireMode "{506B20D1476BA99E}" {
+       "Gamepad Trigger effect" GamepadTriggerEffect "{619AA72C28DF32C1}" {
         Name "SafetyLight"
-        ContextName "Weapon"
-        Priority 20
         TriggerEffectCurve {
          0.444 0 0.556 1
         }
        }
-       "Empty Trigger effect" GamepadTriggerEffect "{6708C3F7819A5CB9}" {
+       "Empty Trigger effect" GamepadTriggerEffect "{61C354AD4F73FF39}" {
         Name "SafetyLight"
-        ContextName "Weapon"
-        Priority 20
         TriggerEffectCurve {
          0.444 0 0.556 1
         }
        }
       }
-      BaseFireMode "{6708C3F66EF76087}" {
-       UIName "Single"
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 1
        ManualAction 1
       }
      }
+     MagazineWell MagazineWellACAX "{6716C6CAD31CAF8F}" {
+     }
+     BulletInitSpeedCoef 1.17
+     DispersionDiameter 0.2
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
+      }
+     }
      "LEFT HAND TARGET" DeploymentPointInfo LeftHand {
-      PivotID "snap_hand_left"
+      PivotID "slot_magazine"
+      Offset 0 0.0206 0.1168
      }
      RIGHT_HAND_TARGET DeploymentPointInfo RightHand {
       PivotID "snap_hand_right"
      }
-     BUTSTOCK_TRANSFORMATION DeploymentPointInfo ButtStock {
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo Bstock {
       PivotID "w_buttstock"
      }
-     MagazinePosition InventoryStorageSlot Magazine {
-      PivotID "slot_magazine"
-      Offset 0 0.0222 0
-      Prefab "{DF53F3CEBAAB8F01}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_ACAX_Base.et"
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset 0 0.0381 -0.0036
      }
+     MagazineTemplate "{DF53F3CEBAAB8F01}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_ACAX_Base.et"
     }
     WeaponAnimationComponent "{6708B95C8865F93C}" {
      Enabled 1
@@ -462,5 +503,6 @@ GenericEntity {
   Hierarchy "{6708B95D55C86959}" {
   }
  }
- coords 1776.501 40.063 2867.394
+ coords 1777.252 40.199 2869.503
+ angles 0 75.422 0
 }

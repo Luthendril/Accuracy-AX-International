@@ -7,7 +7,7 @@ MetaFileClass {
    MaterialAssigns {
     MaterialAssignClass "{6708E36E50C9E7DA}" {
      SourceMaterial "optic_lensglass"
-     AssignedMaterial "{C2B743F963FF56C0}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_Lensglass.emat"
+     AssignedMaterial "{39C2A3A521FE9A1B}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_ARTII_Lensglass.emat"
     }
     MaterialAssignClass "{6708E36E50C9E775}" {
      SourceMaterial "SightMount"
@@ -25,9 +25,9 @@ MetaFileClass {
      SourceMaterial "Sight"
      AssignedMaterial "{55E1795ED5FEB2A0}Assets/Attachments/Optics/data/Sight.emat"
     }
-    MaterialAssignClass "{6708E36E50C9E4FF}" {
+    MaterialAssignClass "{67169728A9526D7A}" {
      SourceMaterial "Optic_pip"
-     AssignedMaterial "{69D3B2DD0A3E8C81}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PIPMaterial.emat"
+     AssignedMaterial "{1C8A9AC4A0AE4922}Assets/Weapons/Attachments/Optics/Shared/SightsPIPMaterial.emat"
     }
    }
    MeshParams {
@@ -43,11 +43,11 @@ MetaFileClass {
     }
     MeshParam "AXSR_Mount Picatiny" {
     }
-    MeshParam AXSR_Sight_Glass {
-    }
     MeshParam AXSR_Sight_LOD0 {
     }
     MeshParam Optic_pip {
+    }
+    MeshParam Glass {
     }
    }
    GeometryParams {

@@ -1,54 +1,27 @@
-GenericEntity : "{0A80D238F2DC97C7}Prefabs/Weapons/Attachments/NightForce Optic/NightForce_Optic_Base.et" {
- components {
-  SCR_2DPIPSightsComponent "{670949D21808116C}" {
-   components {
-    AttachmentSlotComponent "{670949D2AD7F05F2}" {
-     AttachmentSlot InventoryStorageSlot Rangefinder {
-     }
-    }
-   }
-  }
- }
- coords 1776.276 40.084 2867.292
+GenericEntity : "{0A80D238F2DC97C7}Prefabs/Weapons/Attachments/Optics/NF3-12x50/NightForce_Optic_Base.et" {
+ coords 1777.376 40.063 2866.479
+ angles 0 -61.661 0
 }
-$grp GenericEntity : "{48F13DD0E0104F34}Prefabs/Weapons/Rifles/Accuracy AX int/AC-AX_Suppressed.et" {
- {
-  components {
-   WeaponComponent "{6708E375625174A1}" {
-    components {
-     AttachmentSlotComponent "{6708E375625174A3}" {
-      AttachmentSlot RHS_SlidingInventoryStorageSlot Scope {
-       Prefab "{B77B9D53031DB32B}Prefabs/Weapons/Attachments/NightForce Optic/NightForce_Optic_Rangefinder.et"
-      }
-     }
-    }
-   }
-  }
-  coords 1776.287 39.974 2868.313
-  angles 0 23.644 0
- }
- {
-  components {
-   WeaponComponent "{6708E375625174A1}" {
-    components {
-     AttachmentSlotComponent "{6708E375625174A3}" {
-      AttachmentSlot RHS_SlidingInventoryStorageSlot Scope {
-       Prefab "{B77B9D53031DB32B}Prefabs/Weapons/Attachments/NightForce Optic/NightForce_Optic_Rangefinder.et"
-      }
-     }
-    }
-   }
-  }
-  coords 1776.764 40.043 2871.611
-  angles 0 23.644 0
- }
+Projectile : "{1645204A9A7802BE}Prefabs/Weapons/Ammo/Ammo_338LM_AP485.et" {
+ coords 1776.602 39.906 2868.686
+ angles 88.262 0 0
 }
-GenericEntity : "{5746F43A95996B88}Prefabs/Weapons/Rifles/Accuracy AX int/AC-AX_Standard.et" {
- coords 1776.188 40.096 2868.36
- angles 0 23.44 0
+GenericEntity : "{1B1F1DBD023A6EE4}Prefabs/Weapons/Core/AccuracyAX_Magazine_Base.et" {
+ coords 1776.508 40.013 2868.612
+}
+GameEntity : "{333A794F0B55C019}Prefabs/Weapons/Attachments/Optics/m8541/Optic_M8541.et" {
+ coords 1777.657 39.906 2866.481
+ angles 0 -53.426 0
+}
+GenericEntity : "{3FB5275A6505B323}Prefabs/Weapons/Rifles/M14/Rifle_M21_base.et" {
+ coords 1777.122 39.952 2868.999
 }
 GenericEntity : "{6CCFD2CE7218099B}Prefabs/Weapons/Attachments/Normad Suppressor/Nomad_Suppressor_base.et" {
- coords 1776.641 39.949 2868.106
+ coords 1777.116 39.949 2867.107
+ angles 0 -109.267 0
+}
+GenericEntity : "{6D18CC33708EE712}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_Base.et" {
+ coords 1776.651 39.906 2868.381
 }
 $grp GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
  {
@@ -60,33 +33,66 @@ $grp GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.
   angles 0 73.258 0
  }
  {
-  coords 1776.708 38.998 2871.741
+  coords 1777.596 38.998 2869.667
   angles 0 -13.369 0
  }
 }
 GenericEntity : "{761A03A9C5BA8D68}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Base.et" {
- coords 1776.752 39.969 2867.702
+ coords 1778.564 39.969 2869.614
+ angles 0 -100.328 0
+}
+GenericEntity : "{80234EEB344324D6}Prefabs/Weapons/Attachments/Optics/AccuracyAX_Optic_Base.et" {
+ coords 1776.669 39.906 2867.92
+}
+GenericEntity : "{81EB948E6414BD6F}Prefabs/Weapons/Rifles/M14/Rifle_M21_ARTII.et" {
+ coords 1777.507 39.904 2869.294
+}
+GenericEntity : "{8909A91CFF369BB3}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic.et" {
+ coords 1778.287 40.157 2866.045
+ angles 0 -102.121 0
+}
+$grp SCR_FiringRangeTarget : "{96665DE667E8F908}PrefabsEditable/Auto/Props/Military/Training/E_TargetInfantry_01.et" {
+ {
+  coords 1680.189 39 2843.412
+  angles 0 75.384 0
+ }
+ {
+  coords 1582.095 39 2821.066
+  angles 0 75.384 0
+ }
+ {
+  coords 1484.099 39 2804.003
+  angles 0 75.384 0
+ }
+ {
+  coords 1371.078 47.01 2961.439
+  angles 0 111.678 0
+ }
 }
 GenericEntity : "{9A2AA760B16BCDBE}Prefabs/Weapons/Rifles/M40/Rifle_M40A5.et" {
- coords 1776.859 40.026 2866.508
- angles 0 -62.824 0
+ coords 1778.646 40.27 2869.743
+ angles 0 81.449 0
 }
-GenericEntity : "{B77B9D53031DB32B}Prefabs/Weapons/Attachments/NightForce Optic/NightForce_Optic_Rangefinder.et" {
- coords 1776.346 39.906 2867.289
+Projectile : "{A0482F2116129419}Prefabs/Weapons/Ammo/Ammo_.338_AP.et" {
+ coords 1776.659 39.906 2868.471
 }
 GenericEntity : "{B9C41AAC90570E50}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS.et" {
- coords 1776.736 39.926 2868.112
-}
-GenericEntity : "{CF0285DB7114B1C8}Prefabs/Weapons/Rifles/Accuracy AX int/AC-AX_Base.et" {
- coords 1776.124 40.215 2868.389
- angles 0 26.913 0
+ coords 1777.032 39.926 2867.156
+ angles 0 -107.999 0
 }
 GenericEntity : "{D0EF24860024D32D}Prefabs/Weapons/Attachments/BaconOptics/BaconBarrett_L4.5x14_Scope_M82.et" {
- coords 1776.991 39.906 2866.945
+ coords 1777.145 39.906 2866.821
+ angles 0 -56.499 0
 }
-GenericEntity : "{DF53F3CEBAAB8F01}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_ACAX_Base.et" {
- coords 1776.681 40 2867.949
+GenericEntity : "{D176A4AD5D2A3E8F}Prefabs/Weapons/Core/AccuracyAX_Base.et" {
+ coords 1776.396 40.012 2868.385
 }
-GameEntity : "{F7592BD37116D7C3}Prefabs/Weapons/Attachments/Optics/Optic_ARTII/Optic_ARTII_base.et" {
- coords 1776.736 39.906 2866.898
+$grp GameEntity : "{D2018EDB1BBF4C88}Prefabs/Weapons/Attachments/Optics/Optic_ARTII/Optic_ARTII.et" {
+ {
+  coords 1777.251 39.906 2866.537
+  angles 0 -62.727 0
+ }
+ {
+  coords 1777.806 39.904 2869.401
+ }
 }

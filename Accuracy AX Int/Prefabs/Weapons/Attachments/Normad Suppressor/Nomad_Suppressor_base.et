@@ -7,8 +7,8 @@ GenericEntity {
    Enabled 1
    Attributes SCR_ItemAttributeCollection "{6708E35F6080561D}" {
     ItemDisplayName UIInfo "{6708E35F6B07E626}" {
-     Name "Nomad Suppressor"
-     Description "Nomad Suppressor"
+     Name "Nomad Suppressor AC-AX"
+     Description "Nomad Suppressor for the AC-AX"
     }
     ItemPhysAttributes ItemPhysicalAttributes "{6708E35F7EA43B02}" {
      Weight 0.7

@@ -1,0 +1,93 @@
+GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOptic_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsRIS1913 "{671EC3B151454492}" {
+      }
+     }
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraDistanceToItem 0.8
+      FOV 60
+     }
+     CharacterModifierAttributes "{5D0CC83435B5585C}" {
+      ADSSpeedLimit 3
+      SpeedLimitHighready 3
+     }
+    }
+   }
+  }
+  MeshObject "{5D0CC83435B55858}" {
+   Object "{0CDEC08928940D7B}Assets/Attachments/Optics/NightForce_Optic.xob"
+  }
+  SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
+   components {
+    AttachmentSlotComponent "{671EC3B1FB9939B4}" {
+     AttachmentSlot InventoryStorageSlot Rangefinder {
+      PivotID "slot_flashlight"
+     }
+    }
+   }
+   SightsPosition PointInfo "{5D0CC83435B55853}" {
+    Offset 0 0 -0.0447
+   }
+   SightsRanges {
+    SightRangeInfo "{671EC3B70F3007C7}" {
+     Range 0 100
+    }
+    SightRangeInfo "{671EC3B70823D164}" {
+     Range 0.2 200
+    }
+    SightRangeInfo "{671EC3B7085AC4AE}" {
+     Range 0.3 300
+    }
+    SightRangeInfo "{671EC3B7087EEAC7}" {
+     Range 0.4 400
+    }
+    SightRangeInfo "{671EC3B709925FEC}" {
+     Range 0.5 500
+    }
+    SightRangeInfo "{671EC3B709B78539}" {
+     Range 0.6 600
+    }
+    SightRangeInfo "{671EC3B709ED615D}" {
+     Range 0.7 700
+    }
+    SightRangeInfo "{671EC3B70901CCAE}" {
+     Range 0.8 800
+    }
+    SightRangeInfo "{671EC3B70939AD1D}" {
+     Range 0.9 900
+    }
+    SightRangeInfo "{671EC3B7095948DE}" {
+     Range 1 1000
+    }
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{671EC3B73A5B042D}" {
+    m_fBaseZoom 3
+    m_fZoomMax 24
+   }
+   SightsPointFront PointInfo "{671EC3B72F655CEA}" {
+    PivotID "optic_front"
+   }
+   SightsPointRear PointInfo "{671EC3B734A5FA0D}" {
+    PivotID "optic_rear"
+   }
+   SightsPriority 1
+   SoundInt -1
+   m_sReticleTexture "{61CA2E08F2439A2D}Assets/Attachments/Optics/Reticle.edds"
+   m_sReticleGlowTexture "{61CA2E08F2439A2D}Assets/Attachments/Optics/Reticle.edds"
+   m_fMagnification 3
+   m_fReticleAngularSize 1.2
+   m_eZeroingType EPZ_CAMERA_TURN
+   m_rScopeHDRMatrial "{C8A0670660810B79}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_NightForce3-12x50_HDR.emat"
+   m_fDistanceMoveFar 0.4
+   m_fMaxParallax 1.75
+   m_fScopeRadius 0.02
+   m_fReticlePIPScale 3
+  }
+ }
+ coords 1776.669 39.906 2867.92
+}

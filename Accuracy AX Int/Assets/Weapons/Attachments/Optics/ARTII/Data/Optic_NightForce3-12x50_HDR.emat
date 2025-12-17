@@ -1,0 +1,4 @@
+HDREffect : "{B5D201F21F2D379C}Assets/_SharedMaterials/Weapons/Optic_HDR_base.emat" {
+ ReticleMap "{61CA2E08F2439A2D}Assets/Attachments/Optics/Reticle.edds"
+ ReticleColor 0 0 0 1
+}

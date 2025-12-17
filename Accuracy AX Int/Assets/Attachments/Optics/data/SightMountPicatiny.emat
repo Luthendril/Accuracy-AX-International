@@ -1,4 +1,4 @@
-MatPBRBasic {
+MatPBRBasic "{EB1878EFD8F094A9}Assets/Attachments/Optics/data/SightMountPicatiny.emat" {
  Emissive 0 0 0 1
  AOScale 0.2
  BCRMap "{C4665E3821FDF250}Assets/Attachments/Optics/data/AXSR_Sight Mount Picatiny_BaseColor.edds"

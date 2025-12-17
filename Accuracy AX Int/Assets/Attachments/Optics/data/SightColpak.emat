@@ -1,4 +1,4 @@
-MatPBRBasic {
+MatPBRBasic "{5C9D94D7ACC0FE77}Assets/Attachments/Optics/data/SightColpak.emat" {
  Emissive 0 0 0 1
  AOScale 0.2
  BCRMap "{1BC69E00B22797CD}Assets/Attachments/Optics/data/AXSR_Sight Colpak_BaseColor.edds"

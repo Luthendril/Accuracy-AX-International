@@ -1,4 +1,4 @@
-MatPBRBasic {
+MatPBRBasic "{165A088BE779FC8F}Assets/Weapons/Rifle/Data/Handguard.emat" {
  AOScale 0.2
  BCRMap "{5720A34FE188A119}Assets/Weapons/Rifle/Data/AXSR_Handguard_BaseColor.edds"
  NMOMap "{08BBBAFA75A70B36}Assets/Weapons/Rifle/Data/AXSR_Handguard_Normal_DX.edds"

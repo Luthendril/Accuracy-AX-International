@@ -1,0 +1,11 @@
+MatCommon {
+ Emissive 0 0 0 1
+ CastShadow 0
+ ReceiveShadow 0
+ NoDecals 1
+ SurfaceProperties "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+ CrossFade 0
+ AlbedoMap "$rendertarget"
+ DisablePrexposure 1
+ DisableEmptyRTRender 1
+}

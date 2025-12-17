@@ -1,0 +1,12 @@
+MatPBRBasic "{8FBC3A6E946F056F}Common/Materials/Default_Transparent.emat" {
+ Color 0.212 0.212 0.212 1
+ ZWrite 0
+ CastShadow 0
+ ReceiveShadow 0
+ NoDecals 1
+ WetnessScale 0
+ PorosityScale 0
+ AlphaMul 0
+ BlendMode AlphaBlend
+ MetalnessScale 0
+}
