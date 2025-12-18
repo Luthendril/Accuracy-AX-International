@@ -1,0 +1,78 @@
+GenericEntity : "{28866E98F3970DFE}Prefabs/Weapons/Core/MuzzleDevice_base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{67249C9359FEF190}" {
+     Name "Nomad Suppressor"
+     Description "Nomad Suppressor for 338lm"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{67249C9359FEF180}" {
+     Weight 0.61
+     SizeSetupStrategy Manual
+     ItemVolume 200
+    }
+    CustomAttributes {
+     SCR_WeaponAttachmentSuppressorAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentMuzzle338 "{618A843CE28C7529}" {
+      }
+      m_fMuzzleSpeedCoefficient 1.01
+      m_fMuzzleDispersionFactor 0.9
+      m_fExtraObstructionLength 0.18
+      m_vLinearFactors 1 1 0.8
+      m_vAngularFactors 0.7 0.7 0.7
+      m_vTurnFactors 0.8 0.8 1
+     }
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraPreset Right
+      ItemRenderRotation 0 0 45
+      FOV 15
+      AspectRatio 1
+     }
+     SCR_WeaponAttachmentObstructionAttributes "{67249C9359FEF18B}" {
+      AttachmentType AttachmentMuzzle338 "{67249C9359FEF189}" {
+      }
+      m_aObstructedAttachmentTypes {
+       AttachmentBayonet "{67249C9359FEF177}" {
+       }
+      }
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{5C46D45E03D7AD12}" {
+   Object "{686D21A33B511BC6}Assets/Attachments/Noman_Suppressor/Nomad_Suppressor.xob"
+  }
+  SCR_MuzzleEffectComponent "{67249C9359FEF174}" {
+   ParticleEffect "{0D9400A03DDEA9AC}Particles/Weapon/Attachments/Suppressor_Carbine.ptc"
+   EffectPosition EntitySlotInfo muzzle {
+    Offset 0 0 0.2163
+   }
+  }
+  SCR_SoundDataComponent "{5B18D200265FA2CB}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{5BDBACC1D71C41AB}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Attachments_Suppressor.acp"
+    }
+    SCR_AudioSourceConfiguration "{61A28279C00E0A2D}" {
+     m_sSoundProject "{5BDBACC1D71C41AB}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Attachments_Suppressor.acp"
+    }
+   }
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   ActionContexts {
+    UserActionContext "{5284E0EFF4E818E9}" {
+     Position PointInfo "{5284E0EFC526E6F0}" {
+      Offset 0 0 0.1036
+     }
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{5284E0EFDA00C63B}" {
+    }
+   }
+  }
+ }
+ coords 0 0 -0.01
+}

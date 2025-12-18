@@ -1,4 +1,4 @@
-MatPBRBasic {
+MatPBRBasic "{83C6FA572DC2815A}Assets/Attachments/Noman_Suppressor/data/Silencer.emat" {
  Emissive 0 0 0 1
  AOScale 0.147
  BCRMap "{9FD36A0A00A7B805}Assets/Attachments/Noman_Suppressor/data/AXSR_Silencer_BaseColor.edds"

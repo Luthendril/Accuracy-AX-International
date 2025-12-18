@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A220BCF3C1AA4CAB}Assets/Weapons/Rifle/Data/Butt_Camo2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

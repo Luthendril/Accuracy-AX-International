@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FFE01C8952E84AC3}Sounds/Weapons/Rifles/AK74M/Suppressed/Weapons_Rifles_ACAX_Shot_Suppressed.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

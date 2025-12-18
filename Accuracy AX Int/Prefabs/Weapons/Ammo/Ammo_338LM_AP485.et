@@ -1,16 +1,21 @@
-Projectile : "{34CBDF68B826C5DD}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x54r_AP_7N14.et" {
+Projectile : "{A871758F07494882}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x54r_Ball_7N1.et" {
  ID "5494AB43AD13B6EB"
  components {
   ShellMoveComponent "{851AA4A2AE0A5691}" {
-   InitSpeed 905
+   InitSpeed 905.2
+   InitSpeedVariation 3.5
+   DispersionMultiplier 0.55
    ProjectileEffects {
     ProjectileDamage "{5168BBF3DBD79134}" {
      DamageValue 150
     }
    }
+   BallisticTableConfig "{95AF286E1BE31D9E}Configs/Weapons/AIBallisiticTables/SmallArms/AIBT_762x54r_AP_7N14.conf"
+   AirDrag 0.0000099
+   Length 32.3
    PenetrationDepth 12.5
-   PenetrationSpeed 875
+   PenetrationSpeed 835.1
   }
  }
- coords -1.234 0.028 0.145
+ coords -0.083 0.057 -0.024
 }

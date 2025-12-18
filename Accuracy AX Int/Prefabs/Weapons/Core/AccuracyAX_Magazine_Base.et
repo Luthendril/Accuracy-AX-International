@@ -30,7 +30,7 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
    WeightPerAmmo 0.025
   }
   MagazineComponent "{CA6BE4D6B4DAFD69}" {
-   MagazineWell MagazineWellACAX "{6720F013C085F932}" {
+   MagazineWell MagazineWellACAX "{6720F0CCEDCB5419}" {
    }
    UIInfo MagazineUIInfo "{57126733AA401586}" {
     Name "338LM 250gr"
@@ -51,5 +51,6 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
    Object "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
   }
  }
- coords -1.116 0.153 0.041
+ coords -0.634 0.528 0.469
+ angles 0 62 0
 }

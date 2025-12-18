@@ -1,0 +1,56 @@
+GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOptic_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  MeshObject "{5D0CC83435B55858}" {
+   Object "{0CDEC08928940D7B}Assets/Attachments/Optics/NightForce_Optic.xob"
+  }
+  SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
+   SightsRanges {
+    SightRangeInfo "{67247993DBB4A512}" {
+     Range 0.054932 100
+    }
+    SightRangeInfo "{67247993DBDFC7C1}" {
+     Range 0.098877 200
+    }
+    SightRangeInfo "{67247993DBF4C1C8}" {
+     Range 0.153809 300
+    }
+    SightRangeInfo "{67247993DB2B36B9}" {
+     Range 0.214233 400
+    }
+    SightRangeInfo "{67247993DB4019D4}" {
+     Range 0.280151 500
+    }
+    SightRangeInfo "{67247993DB7D3E8C}" {
+     Range 0.357056 600
+    }
+    SightRangeInfo "{67247993A49A6FA7}" {
+     Range 0.439453 700
+    }
+    SightRangeInfo "{67247993A4B5CE94}" {
+     Range 0.53833 800
+    }
+    SightRangeInfo "{67247993A4E88827}" {
+     Range 0.648193 900
+    }
+    SightRangeInfo "{67247993A4067D10}" {
+     Range 0.780029 1000
+    }
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{67247993F7A792F4}" {
+    m_fBaseZoom 3
+    m_fZoomMax 24
+    m_fInterpolationSpeed 5
+   }
+   SightsPointFront PointInfo "{67247993FF3F2D25}" {
+    PivotID "optic_front"
+   }
+   SightsPointRear PointInfo "{67247993F9C5C2B1}" {
+    PivotID "optic_rear"
+   }
+   SightsPriority 1
+  }
+ }
+ coords 1777.644 40.049 2866.469
+ angles 0 -97.79 0
+}

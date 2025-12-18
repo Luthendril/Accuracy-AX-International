@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D229BC7CE5E70F59}Assets/Weapons/Rifle/Data/Reaceverower_Camo2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

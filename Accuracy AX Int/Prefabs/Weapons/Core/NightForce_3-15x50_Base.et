@@ -1,0 +1,133 @@
+GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOptic_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5D0CC83435B5584E}" {
+     Name "3-12 x 50 Scope"
+     Description "Optic for the Accuracy International AXSR"
+    }
+   }
+  }
+  MeshObject "{5D0CC83435B55858}" {
+   Object "{0CDEC08928940D7B}Assets/Attachments/Optics/NightForce_Optic.xob"
+  }
+  SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
+   components {
+    AttachmentSlotComponent "{6724799F5B269B1C}" {
+     AttachmentSlot InventoryStorageSlot RangeFinder {
+      PivotID "slot_flashlight"
+     }
+     ShowInInspection 1
+    }
+   }
+   SightsRanges {
+    SightRangeInfo "{672479914C95EBBB}" {
+     Range 0.04 100
+    }
+    SightRangeInfo "{672479914CBED3A5}" {
+     Range 0.07 200
+    }
+    SightRangeInfo "{672479914CD97356}" {
+     Range 0.09 300
+    }
+    SightRangeInfo "{672479914CFB989C}" {
+     Range 0.11 400
+    }
+    SightRangeInfo "{672479914C15A5FF}" {
+     Range 0.16 500
+    }
+    SightRangeInfo "{672479914C37BA0B}" {
+     Range 0.18683 600
+    }
+    SightRangeInfo "{672479914C509ED0}" {
+     Range 0.24865 700
+    }
+    SightRangeInfo "{672479914C72337F}" {
+     Range 0.3123 800
+    }
+    SightRangeInfo "{672479914D93EDEC}" {
+     Range 0.38247 900
+    }
+    SightRangeInfo "{672479914DC67DA9}" {
+     Range 0.46101 1000
+    }
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{672479914BA369EA}" {
+    m_fBaseZoom 3
+    m_fZoomMax 15
+    m_fInterpolationSpeed 5
+   }
+   SightsPointFront PointInfo "{672479915EDF1ADE}" {
+    PivotID "optic_front"
+   }
+   SightsPointRear PointInfo "{67247991583036CE}" {
+    PivotID "optic_rear"
+   }
+   SightsPriority 1
+   ZeroingGenerator BaseZeroingGenerator "{67247991CAD67300}" {
+    ZeroRaiseToEye 1
+   }
+   m_sReticleTexture "{61CA2E08F2439A2D}Assets/Attachments/Optics/Reticle.edds"
+   m_sReticleGlowTexture "{61CA2E08F2439A2D}Assets/Attachments/Optics/Reticle.edds"
+   m_fMagnification 3
+   m_fReticleAngularSize 1.2
+   m_fAnimationSpeedBlur 2
+   m_eZeroingType EPZ_CAMERA_TURN
+   m_rScopeHDRMatrial "{C8A0670660810B79}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_NightForce3-12x50_HDR.emat"
+   m_fCenterDistance 0.014
+   m_fDistanceMoveFar 0.4
+   m_fMaxParallax 1.75
+   m_fScopeRadius 0.0175
+   m_fReticlePIPScale 3
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   ActionContexts {
+    UserActionContext "{5284E0EFF4E818E9}" {
+     UIInfo SCR_ActionContextUIInfo "{6710A824CF9A719A}" {
+     }
+     Position PointInfo "{6710A824A52F27B9}" {
+      Offset 0 0 0
+     }
+     Radius 0.3
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{5284E0EFDA00C63B}" {
+     UIInfo SCR_ActionUIInfo "{6710A8255595E790}" {
+     }
+    }
+    SCR_PickUpItemAction "{585CED82E5DD85D6}" {
+     UIInfo SCR_ActionUIInfo "{6710A8252C44B8D7}" {
+      m_sIconName ""
+     }
+    }
+    SCR_AttachItemFromInventoryAction "{5D0CC83435B55B88}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo SCR_ActionUIInfo "{6710A8253669D7B3}" {
+      Name "Detach "
+      m_sIconName ""
+     }
+     Duration 2
+     CanAggregate 0
+     "Inventory action" 0
+    }
+    SCR_AttachementAction "{5D0CC83435B55B8D}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6710A8256716562D}" {
+      Name "#AR-UserAction_Attach"
+     }
+     Duration 2
+     CanAggregate 0
+     "Inventory action" 1
+    }
+   }
+  }
+ }
+ coords 1776.711 39.989 2868.242
+ angles 0 -1.381 0
+}

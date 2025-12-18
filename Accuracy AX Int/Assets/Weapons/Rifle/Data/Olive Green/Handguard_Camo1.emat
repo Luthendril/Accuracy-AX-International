@@ -1,0 +1,7 @@
+MatPBRCamo {
+ AOScale 0.2
+ BCRMap "{5720A34FE188A119}Assets/Weapons/Rifle/Data/AXSR_Handguard_BaseColor.edds"
+ NMOMap "{08BBBAFA75A70B36}Assets/Weapons/Rifle/Data/AXSR_Handguard_Normal_DX.edds"
+ DetailNormalMap "{49EE27983BD3EB40}Assets/Weapons/Rifle/Data/AXSR_Handguard_Normal_GL.edds"
+ CamoAlbedoMap "{A199AF96B5EB98AD}Assets/Weapons/Rifle/Data/Olive Green/AXSR_Handguard_BaseColor.edds"
+}

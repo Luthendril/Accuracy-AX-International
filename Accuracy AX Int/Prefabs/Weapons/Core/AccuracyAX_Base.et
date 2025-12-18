@@ -3,7 +3,7 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
  components {
   WeaponSoundComponent "{5A8685198A9AEEDD}" {
    Filenames {
-    "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{B016A4FFD78AD674}Sounds/Weapons/Rifles/Accuracy AX Int/Weapons_Rifles_ACAX_Shot.acp" "{106F085D294D2E03}Sounds/Weapons/Rifles/M40/Weapons_Rifles_M40_handling.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{F9B575E37280E5D7}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Rifle_WoodMetal.acp"
+    "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{B016A4FFD78AD674}Sounds/Weapons/Rifles/Accuracy AX Int/Weapons_Rifles_ACAX_Shot.acp" "{106F085D294D2E03}Sounds/Weapons/Rifles/M40/Weapons_Rifles_M40_handling.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{FFE01C8952E84AC3}Sounds/Weapons/Rifles/Accuracy AX Int/Suppressed/Weapons_Rifles_ACAX_Shot_Suppressed.acp"
    }
   }
   MeshObject "{CFBAA4B701F95D69}" {
@@ -49,7 +49,6 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
       }
      }
      PreviewRenderAttributes "{52BAB5E48C906DB8}" {
-      CameraDistanceToItem 0.8
      }
      ItemOneHandAnimAttributes "{671E851193D3D60C}" {
       ErectLinearOffsetUpper 0 0 0
@@ -73,7 +72,6 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
       PivotID "slot_optics"
       MergePhysics 1
       ChildPivotID "snap_weapon"
-      Prefab "{80234EEB344324D6}Prefabs/Weapons/Attachments/Optics/AccuracyAX_Optic_Base.et"
       InspectionWidgetOffset 0 0.146 0.1816
      }
      AttachmentType AttachmentOpticsRIS1913 "{671E85039D367B54}" {
@@ -84,15 +82,23 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
      AttachmentSlot InventoryStorageSlot Lrail {
       PivotID "slot_flashlight"
      }
+     AttachmentType AttachmentRIS1913Short "{6724799C9A2AE5BF}" {
+     }
+     ShowInInspection 1
     }
     AttachmentSlotComponent "{671E851EEE3207B1}" {
      AttachmentSlot InventoryStorageSlot Rrail {
       PivotID "slot_flashlight.001"
      }
+     AttachmentType AttachmentRIS1913Short "{6724799C98E3054C}" {
+     }
+     ShowInInspection 1
     }
     AttachmentSlotComponent "{671E851EF5C02AE4}" {
      AttachmentSlot InventoryStorageSlot UnderBarrel {
       PivotID "slot_underbarrel"
+     }
+     AttachmentType AttachmentRIS1913Bipod "{67249C8B6BDCAA12}" {
      }
     }
     SightsComponent "{BB23A637957CFFF8}" {
@@ -187,9 +193,19 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
      SightsPointRear PointInfo "{671E851D44C8415F}" {
       Offset 0 0.1603 -0.0973
      }
+     SightsSwitchSkip 1
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
      components {
+      AttachmentSlotComponent "{6724799CD337BC80}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        PivotID "barrel_muzzle"
+        Offset 0 0 -0.0239
+       }
+       AttachmentType AttachmentMuzzle762_54 "{6724799CACEFB69C}" {
+       }
+       ShowInInspection 1
+      }
       CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
        ParticleEffect "{83DC2DCAF6EDC75F}Particles/Weapon/Casing_762x54.ptc"
        EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
@@ -206,11 +222,10 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
      }
      FireModes {
       BaseFireMode "{B80A64F4A8EF8333}" {
-       RoundsPerMinute 1
        ManualAction 1
       }
      }
-     MagazineWell MagazineWellACAX "{6720F013F9C76FCB}" {
+     MagazineWell MagazineWellACAX "{6720F0CC1A4E2466}" {
      }
      BulletInitSpeedCoef 1.3
      DispersionDiameter 0.58
@@ -319,5 +334,5 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
    }
   }
  }
- coords 1776.396 40.012 2868.385
+ coords 1776.406 40.023 2866.88
 }
