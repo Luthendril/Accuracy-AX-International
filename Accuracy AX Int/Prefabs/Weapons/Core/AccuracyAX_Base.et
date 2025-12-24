@@ -42,7 +42,13 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
       DeploymentPoints {
        PivotPointInfoItem "{671E8511FF745675}" {
         "Point info" DeploymentPointInfo DeploymentPointInfo {
-         Offset 0 0.0555 0.5448
+         Offset 0 0.0693 0.4299
+        }
+        StabilizationPoints {
+         DeploymentPointInfo Bipodpos {
+          PivotID "bipod_pos"
+          Offset 0 -0.0849 0
+         }
         }
         StabilizationSize 0.05 0.1 0.55
        }
@@ -227,8 +233,7 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
      }
      MagazineWell MagazineWellACAX "{6720F0CC1A4E2466}" {
      }
-     BulletInitSpeedCoef 1.3
-     DispersionDiameter 0.58
+     BulletInitSpeedCoef 1.02
      WeaponAimModifiers {
       RecoilWeaponAimModifier "{671E850D1908D0AD}" : "{0E6B74D9C265E140}Prefabs/Weapons/Core/Recoil/Rifle_LongRange_762_recoil.conf" {
        LinearData RecoilData "{671E8509FE7F81AA}" {
@@ -334,5 +339,6 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
    }
   }
  }
- coords 1776.406 40.023 2866.88
+ coords 1779.96 40.819 2866.89
+ angles 0 -107.136 0
 }

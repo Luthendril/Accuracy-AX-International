@@ -34,7 +34,7 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
    }
    UIInfo MagazineUIInfo "{57126733AA401586}" {
     Name "338LM API nr526"
-    Description "338LM 253gr for the Accuracy AX Int."
+    Description "338LM for the Accuracy AX Int."
     m_sAmmoCaliber "8.6mm"
     m_sAmmoType "API"
     m_bShowAmmoTypeText 1
@@ -51,6 +51,6 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
    Object "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
   }
  }
- coords 1778.153 39.996 2866.729
+ coords 1778.313 40 2867.227
  angles 0 -109.979 0
 }

@@ -2219,16 +2219,10 @@ AudioClass {
    "Disable streaming" 1
    Preload 1
    Samples {
-    AudioBankSampleClass "Weapons_Rifles_ACAX_SupShot1.wav" {
-     Filename "{5C06E9E489D02E94}Sounds/Weapons/Rifles/Accuracy AX Int/Suppressed/Weapons_Rifles_ACAX_SupShot1.wav"
+    AudioBankSampleClass "Weapons_Rifles_ACAX_SupShot4.wav" {
+     Filename "{D891F34043822521}Sounds/Weapons/Rifles/Accuracy AX Int/Suppressed/Weapons_Rifles_ACAX_SupShot4.wav"
      Probability 100
      Index 0
-     SampleMetadata ""
-    }
-    AudioBankSampleClass "Weapons_Rifles_ACAX_SupShot2.wav" {
-     Filename "{C518507D94371F04}Sounds/Weapons/Rifles/Accuracy AX Int/Suppressed/Weapons_Rifles_ACAX_SupShot2.wav"
-     Probability 100
-     Index 1
      SampleMetadata ""
     }
    }
@@ -2401,8 +2395,8 @@ AudioClass {
    "Fade in function" SCurve
    "Fade in time" 7
    Samples {
-    AudioBankSampleClass "Weapons_Rifles_ACAX_SupShot1.wav" {
-     Filename "{5C06E9E489D02E94}Sounds/Weapons/Rifles/Accuracy AX Int/Suppressed/Weapons_Rifles_ACAX_SupShot1.wav"
+    AudioBankSampleClass "Weapons_Rifles_ACAX_SupShot4.wav" {
+     Filename "{D891F34043822521}Sounds/Weapons/Rifles/Accuracy AX Int/Suppressed/Weapons_Rifles_ACAX_SupShot4.wav"
      Probability 100
      Index 0
      SampleMetadata ""

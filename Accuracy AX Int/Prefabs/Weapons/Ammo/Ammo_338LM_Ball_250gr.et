@@ -1,0 +1,32 @@
+Projectile : "{1D9DDE1632F33A9E}Prefabs/Weapons/Ammo/SmallArms/Ammo_545x39_Ball_7N6.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  BaseProjectileComponent "{6726F3FC8279D356}" {
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 915
+   InitSpeedVariation 5
+   Mass 0.0162
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 225
+    }
+   }
+   BallisticTableConfig "{CE71FBF653A5DE8F}Configs/Weapons/AIBallisticTables/AIBT_AccuracyAX_338LM_250gr.conf"
+   AirDrag 0.000014
+   Diameter 8.6
+   Length 40
+   MushroomingDamageMultiplier 0.025
+   TumblingDamageMultiplier 0.75
+   PenetrationDepth 8.5
+   PenetrationDensity 7.5
+   PenetrationSpeed 1050
+   PenetrationDirDistribution 0.3
+  }
+ }
+ coords 1778.559 39.908 2866.954
+ angles 89.117 -171.103 33.181
+ ProjectileVisibleTimeScale 0.2
+ ProjectileModel "{1F1081711A2E1686}Assets/Ammo/338Projectile.xob"
+ CartridgeModel "{7F7A8F1EAD6CC381}Assets/Ammo/338Cartridge.xob"
+}

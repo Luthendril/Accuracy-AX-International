@@ -41,8 +41,8 @@ GenericEntity : "{D176A4AD5D2A3E8F}Prefabs/Weapons/Core/AccuracyAX_Base.et" {
       DeploymentPoints {
        PivotPointInfoItem "{671E8511FF745675}" {
         "Point info" DeploymentPointInfo DeploymentPointInfo {
-         PivotID "slot_underbarrel"
-         Offset 0.0001 0.005 0.0073
+         PivotID ""
+         Offset 0 0.0693 0.4299
         }
         StabilizationSize 0.05 0.1 0.55
        }
@@ -271,6 +271,6 @@ GenericEntity : "{D176A4AD5D2A3E8F}Prefabs/Weapons/Core/AccuracyAX_Base.et" {
    }
   }
  }
- coords 1779.905 40.219 2866.407
+ coords 1780.065 40.223 2866.905
  angles 0 -104.119 0
 }

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{081E144A6668B2F3}Configs/Weapons/AIBallisticTables/AIBT_AccuracyAX_338LM_AP_nr485.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

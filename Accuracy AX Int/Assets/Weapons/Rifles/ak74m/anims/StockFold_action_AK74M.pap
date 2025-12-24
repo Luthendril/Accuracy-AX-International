@@ -1,0 +1,214 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 9220
+   name "Signal 9"
+   tl -720.13 540.261
+   res "{7FD9A91735497BE1}Assets/Weapons/Rifles/ak74m/anims/StockFold_signal.siga"
+   inputsport {
+    1 6
+   }
+   outputsport {
+    2 7
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+ }
+ funcs {
+  RotationMakeClass {
+   id 6150
+   name "RotationMake 6150"
+   tl -413 482
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass "9220:2" {
+         id 9220
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    7174
+   }
+  }
+  RotationSetClass {
+   id 7174
+   name "RotationSet 7174"
+   tl -176 449
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass "6150:0" {
+         id 6150
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass "8198:0" {
+         id 8198
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 8198
+   name "Bone 8198"
+   version 0
+   tl -431 358
+   outs {
+    7174
+   }
+   bone "w_stock"
+  }
+  TranslateMakeClass {
+   id 11270
+   name "TranslateMake 10246"
+   tl -367.634 807.701
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass "9220:7" {
+         id 9220
+         port 7
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  TranslateSetClass {
+   id 12294
+   name "TranslateSet 11270"
+   tl -115.816 751.338
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass "14342:0" {
+         id 14342
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass "11270:0" {
+         id 11270
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 14342
+   name "Bone 14342"
+   version 0
+   tl -376 733
+   outs {
+    12294
+   }
+   bone "bipod_pos"
+  }
+ }
+ groups {
+  GroupClass {
+   id 14339
+   name "Bipod"
+   children {
+    11270 12294 13318
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+ }
+ model "{930BCFB0E8A659E8}Assets/Weapons/Rifles/ak74m/ak74m.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   641 513 385 257 1 129
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 0 0 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 327680 0 196608 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 262144 0
+    }
+   }
+  }
+  version 2
+  argsize 10
+ }
+}

@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Emissive 0 0 0 1
+ SpecularMul 0.52
+ RoughnessScale 0.506
+ MetalnessScale 2.421
+ AOScale 0.222
+ BCRMap "{5A9647A387234748}Assets/Ammo/data/AXSR_Ammo_BaseColor.edds"
+ NormalPower 2.013
+ NMOMap "{050D5E16130CED67}Assets/Ammo/data/AXSR_Ammo_Normal_DX.edds"
+ DetailNormalMap "{4458C3745D780D11}Assets/Ammo/data/AXSR_Ammo_Normal_GL.edds"
+}

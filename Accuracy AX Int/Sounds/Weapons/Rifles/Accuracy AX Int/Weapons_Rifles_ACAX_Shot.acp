@@ -3,7 +3,7 @@ AudioClass {
   SignalClass "353293" {
    id 353293
    name "Bodymanager 3 Dist"
-   tl 226.883 -1659.389
+   tl 227.639 -1659.389
    res "{99482B186481AD82}Sounds/_SharedData/Signals/Weapons/Weapon_BodyManager_3_Distances.sig"
    conns {
     IOPConnectionClass iopConnection {
@@ -2173,7 +2173,7 @@ AudioClass {
    id 392196
    name "AL FirstPerson"
    version 7
-   tl 464.45 -1696.273
+   tl 465.6 -1697.423
    ctl 0 1
    ins {
     ConnectionsClass "con:0" {
@@ -2284,7 +2284,7 @@ AudioClass {
    id 396292
    name "Body Far"
    version 7
-   tl 466.6 -1376
+   tl 466.6 -1376.756
    ins {
     ConnectionsClass "con:0" {
      id 0
@@ -3799,8 +3799,8 @@ AudioClass {
    "Fade in function" SCurve
    "Fade in time" 5
    Samples {
-    AudioBankSampleClass "Distantshot1.wav" {
-     Filename "{8BCD620946712769}Sounds/Weapons/Rifles/Accuracy AX Int/Distantshot1.wav"
+    AudioBankSampleClass "Distantcut2.wav" {
+     Filename "{88F37F27AAE5879D}Sounds/Weapons/Rifles/Accuracy AX Int/Distantcut2.wav"
      Probability 100
      Index 0
      SampleMetadata ""
@@ -3835,8 +3835,8 @@ AudioClass {
    "Fade in function" SCurve
    "Fade in time" 5
    Samples {
-    AudioBankSampleClass "Weapon_Rifles_ACAX_Shot1short.wav" {
-     Filename "{ECEFEDB8C1B8C1B3}Sounds/Weapons/Rifles/Accuracy AX Int/Weapon_Rifles_ACAX_Shot1short.wav"
+    AudioBankSampleClass "Weapon_Rifles_ACAX_Shot3.wav" {
+     Filename "{01A1C28E3D21BF0C}Sounds/Weapons/Rifles/Accuracy AX Int/Weapon_Rifles_ACAX_Shot3.wav"
      Probability 100
      Index 0
      SampleMetadata ""

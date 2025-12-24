@@ -8,29 +8,29 @@ GenericEntity : "{D176A4AD5D2A3E8F}Prefabs/Weapons/Core/AccuracyAX_Base.et" {
   MeshObject "{CFBAA4B701F95D69}" {
    Object "{E5D9CE8EA75DAAB2}Assets/Weapons/Rifle/ACAX_Base.xob"
    Materials {
-    MaterialAssignClass "{67249CA7D2276D57}" {
+    MaterialAssignClass "{6724EE4094D4B8B8}" {
      SourceMaterial "Barrel"
-     AssignedMaterial "{27A5821D09B2C3D6}Assets/Weapons/Rifle/Data/Olive Green/Barrel_Camo_1.emat"
+     AssignedMaterial "{C328A559ABA81277}Assets/Weapons/Rifle/Data/Olive Green/Barrel_Camo1.emat"
     }
-    MaterialAssignClass "{67249CA7D2276D4F}" {
+    MaterialAssignClass "{6724EE4094D4B8A8}" {
      SourceMaterial "Butt"
-     AssignedMaterial "{552F84A72EC80EFC}Assets/Weapons/Rifle/Data/Olive Green/Butt_Camo_1.emat"
+     AssignedMaterial "{94162CE05C845870}Assets/Weapons/Rifle/Data/Olive Green/Butt_Camo1.emat"
     }
-    MaterialAssignClass "{67249CA7D2276D34}" {
+    MaterialAssignClass "{6724EE4094D4B892}" {
      SourceMaterial "Handguard"
-     AssignedMaterial "{D5C4A71AE844685C}Assets/Weapons/Rifle/Data/Olive Green/Handguard_Camo_1.emat"
+     AssignedMaterial "{E67F2DC7777F1530}Assets/Weapons/Rifle/Data/Olive Green/Handguard_Camo1.emat"
     }
-    MaterialAssignClass "{67249CA7D2276D3B}" {
+    MaterialAssignClass "{6724EE4094D4B89C}" {
      SourceMaterial "Picatiny"
-     AssignedMaterial "{C39202D690833939}Assets/Weapons/Rifle/Data/Olive Green/Picatiny_Camo_1.emat"
+     AssignedMaterial "{92D9DC50B00FC432}Assets/Weapons/Rifle/Data/Olive Green/Picatiny_Camo1.emat"
     }
-    MaterialAssignClass "{67249CA7D2276D25}" {
+    MaterialAssignClass "{6724EE4094D4B887}" {
      SourceMaterial "ReaceverUpper"
-     AssignedMaterial "{65D593E2C158554A}Assets/Weapons/Rifle/Data/Olive Green/ReaceverUpper_Camo_1.emat"
+     AssignedMaterial "{E6FD128B6730C0BF}Assets/Weapons/Rifle/Data/Olive Green/ReaceverUpper_Camo1.emat"
     }
-    MaterialAssignClass "{67249CA7D2276D2E}" {
+    MaterialAssignClass "{6724EE4094D4B880}" {
      SourceMaterial "Reaceverower"
-     AssignedMaterial "{2C6D809638C553E2}Assets/Weapons/Rifle/Data/Olive Green/Reaceverower_Camo_1.emat"
+     AssignedMaterial "{F8AAC5C2B280B7EF}Assets/Weapons/Rifle/Data/Olive Green/Reaceverower_Camo1.emat"
     }
    }
   }

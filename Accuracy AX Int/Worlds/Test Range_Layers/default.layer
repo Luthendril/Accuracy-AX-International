@@ -14,6 +14,10 @@ $grp GenericEntity : "{150E2822350BD35E}Prefabs/Structures/Walls/Brick/BrickWall
   scale 1.51
  }
 }
+GenericEntity : "{3C9FB6869EB635BB}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_round_plastic.et" {
+ coords 1775.355 38.927 2869.897
+ angles 0 -102.86 0
+}
 $grp SCR_DestructibleEntity : "{419130031F0009C9}Prefabs/Structures/Walls/Brick/BrickWall_01/BrickWall_01_4m.et" {
  {
   coords 1776.509 0 2865.337
@@ -28,9 +32,37 @@ GenericEntity : "{429F128866A7015E}Prefabs/Weapons/Rifles/Accuracy AX int/Urban 
  coords 1777.15 40.312 2865.657
  angles 0 -103.255 0
 }
+GenericEntity : "{4E4475A7D8DABCD5}Prefabs/Structures/BuildingParts/Doors/Door_Barracks_E_01/Door_Barracks_RIGHT_EXT_ST_M2.et" {
+ coords 1778.288 39 2886.914
+}
+Projectile : "{4E6335131BB6EB30}Prefabs/Weapons/Ammo/Ammo_338LM_Ball_Tracer.et" {
+ coords 1778.002 39.906 2866.859
+ angles 89.583 0 180
+}
 GenericEntity : "{4FC310F2227B3921}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_338LM_API526.et" {
  coords 1778.153 39.996 2866.729
  angles 0 -109.979 0
+}
+GenericEntity : "{67702932A4C98660}Prefabs/Structures/BuildingParts/Doors/Door_AircraftShelter_E_01/Door_AircraftShelter_E_01_Side_Left_EXT_COV_B_green.et" {
+ coords 1774.257 39 2887.334
+}
+TracerProjectile : "{678188455B777E61}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x99_Tracer_M10.et" {
+ coords 1778.901 39.909 2867.005
+ angles 88.408 180 -180
+}
+GenericEntity : "{69B7C0A79FD48B0D}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_02/Door_Bunker_02_A_LEFT_EXT_ST_B.et" {
+ coords 1772.634 39 2887.16
+}
+Projectile : "{6C1AFC284D4307D5}Prefabs/Weapons/Ammo/Ammo_338LM_API_nr526.et" {
+ coords 1778.199 39.906 2866.884
+ angles 89.833 180 16.071
+}
+Projectile : "{6DEC9F287271AB24}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x99_AP_M2.et" {
+ coords 1778.821 39.909 2867.009
+ angles 89.1 -180 -69.432
+}
+GenericEntity : "{70BF65A7C7466D48}Prefabs/Structures/BuildingParts/Doors/Door_Barn_E_01_LEFT.et" {
+ coords 1776.723 42.22 2887.094
 }
 $grp GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
  {
@@ -149,6 +181,14 @@ $grp SCR_FiringRangeTarget : "{96665DE667E8F908}PrefabsEditable/Auto/Props/Milit
   angles 0 68.589 0
  }
 }
+GenericEntity : "{966B4E5523D2F167}Prefabs/Weapons/Core/NightForce_3-15x50_Base.et" {
+ coords 1776.632 39.906 2866.595
+ angles 0 -12.489 0
+}
+Projectile : "{9C49A6C4716FE10A}Prefabs/Weapons/Ammo/Ammo_338LM_AP_nr485.et" {
+ coords 1778.39 39.906 2866.938
+ angles 89.759 168.483 1.264
+}
 Projectile : "{9FDAF35BC71B294C}Prefabs/Weapons/Ammo/Ammo_338LM_API526.et" {
  components {
   ShellMoveComponent "{851AA4A2AE0A5691}" {
@@ -156,22 +196,38 @@ Projectile : "{9FDAF35BC71B294C}Prefabs/Weapons/Ammo/Ammo_338LM_API526.et" {
   }
  }
  coords 1778.178 39.906 2866.879
- angles 89.182 180 -180
+ angles 89.182 -180 0
 }
 Projectile : "{A0482F2116129419}Prefabs/Weapons/Ammo/Ammo_338LM_AP485.et" {
- coords 1778.363 39.906 2866.918
- angles 89.157 180 -180
+ coords 1778.411 39.905 2866.888
+ angles 89.157 180 -70.354
+}
+Projectile : "{A4E070505C87AD42}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x99_Ball_M33.et" {
+ coords 1778.729 39.91 2867.002
+ angles 89.463 180 -70.159
 }
 TracerProjectile : "{AC11A2AB100D9672}Prefabs/Weapons/Ammo/Ammo_338LM_Tracer.et" {
  coords 1778.005 39.906 2866.835
  angles 89.341 180 -180
 }
+GenericEntity : "{C51A49ACBB2EF063}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_blue.et" {
+ coords 1764.784 39.087 2916.895
+ angles 0 -17.757 0
+}
 GenericEntity : "{C912C35121096BEA}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock/Win_GlassBlock_01_500x300.et" {
  coords 1281.454 41.121 2802.805
  angles 0 81.964 0
 }
+GenericEntity : "{CA13CD0E0B4A8536}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_338LM_Ball_250gr.et" {
+ coords 1778.537 40 2866.83
+ angles 0 -107.949 0
+}
 GenericEntity : "{CC250825F87C498A}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_338LM_AP485.et" {
  components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 33
+   UsedAgainst 0x17 0xfffffffffffffffc
+  }
   InventoryMagazineComponent "{51EED12B803954CC}" {
    Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
     ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
@@ -179,13 +235,39 @@ GenericEntity : "{CC250825F87C498A}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX
     }
    }
   }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellACAX "{6724799403C129FA}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "338LM AP nr485"
+    Description "338LM for the Accuracy AX Int."
+    m_sAmmoCaliber "8.6mm"
+    m_sAmmoType "AP"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags AP
+   }
+   ItemModel "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
+   MaxAmmo 10
+   AmmoConfig "{848D5DE7B2E307A1}Configs/Weapons/Ammo/Ammo_338.conf"
+   AmmoMapping +{
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
+  }
  }
  coords 1778.343 39.996 2866.801
  angles 0 -110.018 0
 }
-GenericEntity : "{D0CE0D625E3D65C6}Prefabs/Weapons/Rifles/Accuracy AX int/AccuracyAX_Optic.et" {
- coords 1779.846 40.536 2866.4
- angles 0 -105.9 0
+$grp GenericEntity : "{D0CE0D625E3D65C6}Prefabs/Weapons/Rifles/Accuracy AX int/AccuracyAX_Optic.et" {
+ {
+  coords 1779.846 40.536 2866.4
+  angles 0 -105.9 0
+ }
+ {
+  coords 1776.791 39.995 2867.133
+  angles 0 -105.9 0
+ }
 }
 GenericEntity : "{D176A4AD5D2A3E8F}Prefabs/Weapons/Core/AccuracyAX_Base.et" {
  coords 1779.8 40.815 2866.392
@@ -195,8 +277,9 @@ GenericEntity : "{D3CD1C6F8A507AA8}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX
  coords 1777.981 39.993 2866.678
  angles 0 -100.3 0
 }
-GenericEntity : "{E74C02B60805F7C7}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Weapons_USSR.et" {
- coords 1775.017 39.01 2864.781
+Projectile : "{F0D0E4717E22F04B}Prefabs/Weapons/Ammo/Ammo_338LM_Ball_250gr.et" {
+ coords 1778.544 39.908 2866.969
+ angles 89.117 -171.103 24.048
 }
 GenericEntity : "{FD191D096F8FEE9D}Prefabs/Weapons/Rifles/Accuracy AX int/Olive green/AccuracyAX_Suppressed_Olive.et" {
  coords 1778.529 40.253 2866.068

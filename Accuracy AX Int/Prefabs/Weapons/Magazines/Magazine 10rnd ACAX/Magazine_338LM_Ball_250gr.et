@@ -1,0 +1,56 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 33
+   UsedAgainst 0x17 0xfffffffffffffffc
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "338LM Ball 250gr"
+     Description "338LM for the Accuracy AX Int."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6726F3E3C51405BE}" {
+     Weight 0.25
+     SizeSetupStrategy Manual
+     ItemVolume 200
+     RestingUP Right
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6726F3E3C514054F}" {
+      CameraPreset Left
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 0.9
+      FOV 10
+     }
+    }
+    CommonItemType "AMMO"
+   }
+   WeightPerAmmo 0.025
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellACAX "{6726F3E3C514054B}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "338LM AP nr485"
+    Description "338LM for the Accuracy AX Int."
+    m_sAmmoCaliber "8.6mm"
+    m_sAmmoType "AP"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags FMJ
+   }
+   ItemModel "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
+   MaxAmmo 10
+   AmmoConfig "{848D5DE7B2E307A1}Configs/Weapons/Ammo/Ammo_338.conf"
+   AmmoMapping {
+    3 3 3 3 3 3 3 3 3 3
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
+  }
+ }
+ coords 1778.537 40 2866.83
+ angles 0 -107.949 0
+}

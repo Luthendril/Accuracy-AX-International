@@ -1,0 +1,27 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 915
+   Mass 0.0162
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 225
+    }
+   }
+   BallisticTableConfig "{CE71FBF653A5DE8F}Configs/Weapons/AIBallisticTables/AIBT_AccuracyAX_338LM_250gr.conf"
+   AirDrag 0.00007
+   Diameter 14.91
+   Length 93.5
+   MushroomingDamageMultiplier 0.2
+   PenetrationDepth 9
+   PenetrationDensity 8
+   PenetrationSpeed 1050
+   PenetrationDirDistribution 0.3
+  }
+ }
+ coords 1778.782 39.909 2866.979
+ angles 89.948 180 -180
+ ProjectileModel "{1F1081711A2E1686}Assets/Ammo/338Projectile.xob"
+ CartridgeModel "{7F7A8F1EAD6CC381}Assets/Ammo/338Cartridge.xob"
+}

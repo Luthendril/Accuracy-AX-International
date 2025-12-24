@@ -1,0 +1,538 @@
+Projectile : "{01F0149FBF2112B0}Prefabs/Weapons/Ammo/Ammo_338LM_API_nr526.et" {
+ coords 1778.313 39.91 2867.364
+ angles 89.416 180 -180
+}
+GenericEntity : "{0BCA18D932925A2E}Prefabs/Weapons/Attachments/Optics/NF3-12x50/NightForce_3-15x50.et" {
+ components {
+  SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
+   SightsRanges {
+    SightRangeInfo "{672479914C72337F}" {
+     Range 0.4281 800
+    }
+    SightRangeInfo "{672479914D93EDEC}" {
+     Range 0.52 900
+    }
+   }
+  }
+ }
+ coords 1777.417 39.91 2866.337
+ angles 0 -103.76 0
+}
+$grp GenericEntity : "{150E2822350BD35E}Prefabs/Structures/Walls/Brick/BrickWall_02/dst/Brick_wall_02_Pole_dst_dbr_01_orange.et" {
+ {
+  coords 915.102 37.536 2609.403
+  angles 0 -15.722 0
+  scale 1.51
+ }
+ {
+  coords 821.677 42.125 2578.8
+  angles 0 -15.722 0
+  scale 1.51
+ }
+}
+Projectile : "{158CA8519769A66F}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x108_API_B32.et" {
+ coords 1778.816 39.913 2867.496
+ angles 89.237 180 23.206
+}
+GenericEntity : "{3C9FB6869EB635BB}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_round_plastic.et" {
+ coords 1775.515 38.931 2870.395
+ angles 0 -102.86 0
+}
+$grp SCR_DestructibleEntity : "{419130031F0009C9}Prefabs/Structures/Walls/Brick/BrickWall_01/BrickWall_01_4m.et" {
+ {
+  coords 1776.668 0.004 2865.834
+  angles 0 -14.528 0
+ }
+ {
+  coords 1781.028 0.003 2865.76
+  angles 0 -104.581 0
+ }
+}
+TracerProjectile : "{41DC48F3090CB379}Prefabs/Weapons/Core/Ammo_338LM_Tracer.et" {
+ coords 1778.177 39.91 2867.356
+ angles 90 -0.457 -162.906
+}
+GenericEntity : "{429F128866A7015E}Prefabs/Weapons/Rifles/Accuracy AX int/Urban gray/AccuracyAX_Suppressed_gray.et" {
+ coords 1777.31 40.316 2866.155
+ angles 0 -103.255 0
+}
+GenericEntity : "{4E4475A7D8DABCD5}Prefabs/Structures/BuildingParts/Doors/Door_Barracks_E_01/Door_Barracks_RIGHT_EXT_ST_M2.et" {
+ coords 1778.448 39.004 2887.412
+}
+GenericEntity : "{4FC310F2227B3921}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_338LM_API526.et" {
+ coords 1778.313 40 2867.227
+ angles 0 -109.979 0
+}
+GenericEntity : "{67702932A4C98660}Prefabs/Structures/BuildingParts/Doors/Door_AircraftShelter_E_01/Door_AircraftShelter_E_01_Side_Left_EXT_COV_B_green.et" {
+ coords 1774.417 39.004 2887.832
+}
+TracerProjectile : "{678188455B777E61}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x99_Tracer_M10.et" {
+ coords 1778.761 39.917 2867.502
+ angles 88.408 180 16.824
+}
+GenericEntity : "{69B7C0A79FD48B0D}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_02/Door_Bunker_02_A_LEFT_EXT_ST_B.et" {
+ coords 1772.793 39.004 2887.657
+}
+Projectile : "{6DEC9F287271AB24}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x99_AP_M2.et" {
+ coords 1778.861 39.912 2867.503
+ angles 89.1 -180 -69.432
+}
+GenericEntity : "{70BF65A7C7466D48}Prefabs/Structures/BuildingParts/Doors/Door_Barn_E_01_LEFT.et" {
+ coords 1776.883 42.224 2887.592
+}
+$grp GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
+ {
+  coords 1777.709 39.004 2866.771
+  angles 0 -13.369 0
+ }
+ {
+  coords 1776.635 39.004 2868.186
+  angles 0 73.258 0
+ }
+ {
+  coords 1779.9 39.007 2867.267
+  angles 0 -13.369 0
+ }
+}
+GenericEntity : "{7B612F0BF575AF86}Prefabs/Weapons/Rifles/Accuracy AX int/Olive green/AccuracyAX_Optic_Olive.et" {
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames +{
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{6724EE4094D4B8B8}" {
+     SourceMaterial "Barrel"
+     AssignedMaterial "{C328A559ABA81277}Assets/Weapons/Rifle/Data/Olive Green/Barrel_Camo1.emat"
+    }
+    MaterialAssignClass "{6724EE4094D4B8A8}" {
+     SourceMaterial "Butt"
+     AssignedMaterial "{94162CE05C845870}Assets/Weapons/Rifle/Data/Olive Green/Butt_Camo1.emat"
+    }
+    MaterialAssignClass "{6724EE4094D4B892}" {
+     SourceMaterial "Handguard"
+     AssignedMaterial "{E67F2DC7777F1530}Assets/Weapons/Rifle/Data/Olive Green/Handguard_Camo1.emat"
+    }
+    MaterialAssignClass "{6724EE4094D4B89C}" {
+     SourceMaterial "Picatiny"
+     AssignedMaterial "{92D9DC50B00FC432}Assets/Weapons/Rifle/Data/Olive Green/Picatiny_Camo1.emat"
+    }
+    MaterialAssignClass "{6724EE4094D4B887}" {
+     SourceMaterial "ReaceverUpper"
+     AssignedMaterial "{E6FD128B6730C0BF}Assets/Weapons/Rifle/Data/Olive Green/ReaceverUpper_Camo1.emat"
+    }
+    MaterialAssignClass "{6724EE4094D4B880}" {
+     SourceMaterial "Reaceverower"
+     AssignedMaterial "{F8AAC5C2B280B7EF}Assets/Weapons/Rifle/Data/Olive Green/Reaceverower_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D57}" {
+     SourceMaterial "Barrel"
+     AssignedMaterial "{C328A559ABA81277}Assets/Weapons/Rifle/Data/Olive Green/Barrel_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D4F}" {
+     SourceMaterial "Butt"
+     AssignedMaterial "{94162CE05C845870}Assets/Weapons/Rifle/Data/Olive Green/Butt_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D34}" {
+     SourceMaterial "Handguard"
+     AssignedMaterial "{E67F2DC7777F1530}Assets/Weapons/Rifle/Data/Olive Green/Handguard_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D3B}" {
+     SourceMaterial "Picatiny"
+     AssignedMaterial "{92D9DC50B00FC432}Assets/Weapons/Rifle/Data/Olive Green/Picatiny_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D25}" {
+     SourceMaterial "ReaceverUpper"
+     AssignedMaterial "{E6FD128B6730C0BF}Assets/Weapons/Rifle/Data/Olive Green/ReaceverUpper_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D2E}" {
+     SourceMaterial "Reaceverower"
+     AssignedMaterial "{F8AAC5C2B280B7EF}Assets/Weapons/Rifle/Data/Olive Green/Reaceverower_Camo1.emat"
+    }
+   }
+  }
+  RigidBody "{671E851461756257}" {
+   Mass 3
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{671E851593AABA23}" {
+   m_fDamage 45
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Accuracy AX - Olive"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{671E851EB2D137E7}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Scope {
+      Prefab "{0BCA18D932925A2E}Prefabs/Weapons/Attachments/Optics/NF3-12x50/NightForce_3-15x50.et"
+     }
+    }
+    AttachmentSlotComponent "{671E851EE2F30241}" {
+     AttachmentSlot InventoryStorageSlot Lrail {
+      Offset 0.0008 0 0.0002
+      Angles 0 0 -90
+     }
+    }
+    AttachmentSlotComponent "{671E851EEE3207B1}" {
+     AttachmentSlot InventoryStorageSlot Rrail {
+      PivotID "slot_flashlight.001"
+     }
+     AttachmentType AttachmentRIS1913Short "{6724799C98E3054C}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{671E851EF5C02AE4}" {
+     AttachmentSlot InventoryStorageSlot UnderBarrel {
+      Offset 0 0.0065 0.0193
+      MergePhysics 1
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+      DisablePhysicsInteraction 1
+      InheritParentSkeleton 0
+      InspectionWidgetOffset -0.0002 0.0373 0.4465
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{67249C9A30D1A6A0}" {
+     AttachmentSlot InventoryStorageSlot Rangefinder {
+      PivotID "slot_flaslight.002"
+      Offset -0.0002 0.0122 -0.0019
+      Prefab "{A7C848BABE4F4577}Prefabs/Weapons/Attachments/Lasers/psq23/LaserRangefinder_PSQ23_base.et"
+     }
+     AttachmentType AttachmentRIS1913Short "{67249C9A30D1A690}" {
+     }
+     ShowInInspection 1
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      Offset 0 0 -0.0635
+     }
+     SightsRanges {
+      SightRangeInfo "{671EC3B8A3664C3D}" {
+       Range 0 440
+       WeaponPosition PointInfo "{671EC3B8A3664C14}" {
+        Offset 0 -0.00153 -0.00071
+        Angles 0.25269 0 0
+       }
+      }
+      SightRangeInfo "{671EC3B8A37B3731}" {
+       Range 0 100
+       WeaponPosition PointInfo "{671EC3B8A37B30F2}" {
+        Offset 0 -0.00027 -0.00012
+        Angles 0.04395 0 0
+       }
+      }
+      SightRangeInfo "{671EC3B8A370994B}" {
+       Range 0 200
+       WeaponPosition PointInfo "{671EC3B8A370992F}" {
+        Offset 0 -0.00056 -0.00026
+        Angles 0.09338 0 0
+       }
+      }
+      SightRangeInfo "{671EC3B8A3744387}" {
+       Range 0 300
+       WeaponPosition PointInfo "{671EC3B8A3744378}" {
+        Offset 0 -0.00093 -0.00043
+        Angles 0.15381 0 0
+       }
+      }
+      SightRangeInfo "{671EC3B8AC89EB31}" {
+       Range 0 400
+       WeaponPosition PointInfo "{671EC3B8AC89EB17}" {
+        Offset 0 -0.00133 -0.00062
+        Angles 0.21973 0 0
+       }
+      }
+      SightRangeInfo "{671EC3B8AC8D9118}" {
+       Range 0 500
+       WeaponPosition PointInfo "{671EC3B8AC8D92FB}" {
+        Offset 0 -0.00179 -0.00083
+        Angles 0.29663 0 0
+       }
+      }
+      SightRangeInfo "{671EC3B8AC812CD7}" {
+       Range 0 600
+       WeaponPosition PointInfo "{671EC3B8AC812CCF}" {
+        Offset 0 -0.00239 -0.00111
+        Angles 0.39551 0 0
+       }
+      }
+      SightRangeInfo "{671EC3B8AC86E866}" {
+       Range 0 700
+       WeaponPosition PointInfo "{671EC3B8AC86E85B}" {
+        Offset 0 -0.00298 -0.0014
+        Angles 0.49438 0 0
+       }
+      }
+      SightRangeInfo "{671EC3B8AC9AA5A3}" {
+       Range 0 900
+       WeaponPosition PointInfo "{671EC3B8AC9AA587}" {
+        Offset 0 -0.00463 -0.00218
+        Angles 0.76904 0 0
+       }
+      }
+      SightRangeInfo "{671EC3B8AC9E674C}" {
+       Range 0 900
+       WeaponPosition PointInfo "{671EC3B8AC9E6722}" {
+        Offset 0 -0.00463 -0.00218
+        Angles 0.76904 0 0
+       }
+      }
+      SightRangeInfo "{671EC3B8AC920CB9}" {
+       Range 0 1000
+       WeaponPosition PointInfo "{671EC3B8AC920C90}" {
+        Offset 0 -0.00556 -0.00263
+        Angles 0.92285 0 0
+       }
+      }
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{671E851D69C4DE0C}" {
+      m_fZoomMax 0.1
+     }
+     SightsPointFront PointInfo "{671E851D7FE2A811}" {
+      Offset 0 0.1603 0.3463
+     }
+     SightsPointRear PointInfo "{671E851D44C8415F}" {
+      Offset 0 0.1603 -0.0973
+     }
+     SightsSwitchSkip 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6724799CD337BC80}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{91D5624C80CD29AB}Prefabs/Weapons/Attachments/Muzzle/Zenit_DTK2_Muzzle/RHS_AK74M_Zenit_DTK1_Muzzle_Base.et"
+       }
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{83DC2DCAF6EDC75F}Particles/Weapon/Casing_762x54.ptc"
+       EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
+        Offset 0 0 0.0547
+       }
+      }
+      CaseEjectingEffectComponent "{671E8514119FBE91}" {
+       ParticleEffect "{8B14454EF0B5E1A8}Particles/Weapon/Smoke_M21.ptc"
+       EffectPosition EntitySlotInfo Smoke {
+        PivotID "barrel_muzzle"
+       }
+       HasSound 0
+      }
+     }
+     MagazineTemplate "{CC250825F87C498A}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_338LM_AP485.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{FB80568093A7433E}Assets/Weapons/Rifles/workspaces/RHS_M40.agr"
+     AnimInstance "{8B06DA8C665A3DC9}Assets/Weapons/Rifles/workspaces/ACAX_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{532F3A9CB912F2BA}" {
+      AnimGraph "{FB80568093A7433E}Assets/Weapons/Rifles/workspaces/RHS_M40.agr"
+      AnimInstance "{AA7C60FFFFD0480B}Assets/Weapons/Rifles/workspaces/RHS_m40_player.asi"
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      PivotID "slot_underbarrel"
+     }
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     UIInfo SCR_ActionContextUIInfo "{6708E34631E4A97C}" {
+     }
+     Position PointInfo "{5E0E3155DB800D1A}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0417 -0.0505
+     }
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     UIInfo SCR_ActionContextUIInfo "{6708E3799B30C230}" {
+     }
+     Position PointInfo "{5E0E3155DB800D04}" {
+      PivotID "w_fire_mode"
+      Offset 0.0049 0.0011 -0.0012
+     }
+     Radius 0.05
+    }
+    UserActionContext "{618A84270A2BFDC0}" {
+     UIInfo SCR_ActionContextUIInfo "{6708E376438E7E9F}" {
+     }
+     Position PointInfo "{618A842792A66B70}" {
+      PivotID "barrel_muzzle"
+      Offset 0.0785 0 0
+     }
+    }
+   }
+  }
+ }
+ coords 1778.668 40.578 2866.552
+ angles 0 -104.407 0
+}
+GenericEntity : "{7C133501585DA358}Prefabs/Weapons/Attachments/Normad Suppressor/Nomad_Suppressor.et" {
+ coords 1778.03 39.91 2867.104
+ angles 89.892 180 14.464
+}
+GenericEntity : "{7DDE020F41324531}Prefabs/Weapons/Rifles/Accuracy AX int/AccuracyAX_Suppressed.et" {
+ coords 1780.065 40.223 2866.905
+ angles 0 -104.119 0
+}
+GenericEntity : "{832EA6ECA170FB2A}Prefabs/Structures/Infrastructure/Naval/Sheds/BoatShed_01/HouseAddons/BoatShed_01_floor.et" {
+ coords 818.387 42.449 2579.51
+ angles 0 -107.054 0
+}
+GenericEntity : "{84F947F823F733CB}Prefabs/Weapons/Rifles/Accuracy AX int/Urban gray/AccuracyAX_Optic_Gray.et" {
+ coords 1777.282 40.616 2866.199
+ angles 0 -106.771 0
+}
+$grp SCR_FiringRangeTarget : "{96665DE667E8F908}PrefabsEditable/Auto/Props/Military/Training/E_TargetInfantry_01.et" {
+ {
+  coords 1680.349 39.004 2843.91
+  angles 0 75.384 0
+ }
+ {
+  coords 1582.262 39.004 2821.536
+  angles 0 75.384 0
+ }
+ {
+  coords 1485.105 39.004 2801.256
+  angles 0 75.384 0
+ }
+ {
+  coords 1371.238 47.014 2961.937
+  angles 0 111.678 0
+ }
+ {
+  coords 1385.903 39.005 2788.932
+  angles 0 75.384 0
+ }
+ {
+  coords 1284.845 41.095 2800.396
+  angles 0 75.384 0
+ }
+ {
+  coords 1200.269 39.004 2707.675
+  angles 0 75.384 0
+ }
+ {
+  coords 1105.904 39.003 2672.736
+  angles 0 75.384 0
+ }
+ {
+  coords 1010.826 39.004 2641.751
+  angles 0 75.384 0
+ }
+ {
+  coords 915.878 39.004 2609.569
+  angles 0 75.384 0
+ }
+ {
+  coords 822.662 43.611 2579.1
+  angles 0 68.589 0
+ }
+}
+GenericEntity : "{966B4E5523D2F167}Prefabs/Weapons/Core/NightForce_3-15x50_Base.et" {
+ coords 1776.792 39.91 2867.093
+ angles 0 -12.489 0
+}
+Projectile : "{9C49A6C4716FE10A}Prefabs/Weapons/Ammo/Ammo_338LM_AP_nr485.et" {
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   BallisticTableConfig "{081E144A6668B2F3}Configs/Weapons/AIBallisticTables/AIBT_AccuracyAX_338LM_AP_nr485.conf"
+  }
+ }
+ coords 1778.492 39.91 2867.423
+ angles 89.759 168.483 1.264
+}
+Projectile : "{A4E070505C87AD42}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x99_Ball_M33.et" {
+ coords 1778.906 39.914 2867.525
+ angles 89.463 180 -70.159
+}
+GenericEntity : "{C51A49ACBB2EF063}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_blue.et" {
+ coords 1764.944 39.091 2917.393
+ angles 0 -17.757 0
+}
+GenericEntity : "{C912C35121096BEA}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock/Win_GlassBlock_01_500x300.et" {
+ coords 1281.614 41.125 2803.302
+ angles 0 81.964 0
+}
+GenericEntity : "{CA13CD0E0B4A8536}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_338LM_Ball_250gr.et" {
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "Ball"
+    m_bShowAmmoTypeText 0
+   }
+  }
+ }
+ coords 1778.697 40.004 2867.328
+ angles 0 -107.949 0
+}
+GenericEntity : "{CC250825F87C498A}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_338LM_AP485.et" {
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 33
+   UsedAgainst 0x17 0xfffffffffffffffc
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Description "338LM for the Accuracy AX Int."
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellACAX "{6724799403C129FA}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "338LM AP nr485"
+    Description "338LM for the Accuracy AX Int."
+    m_sAmmoCaliber "8.6mm"
+    m_sAmmoType "AP"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags AP
+   }
+   ItemModel "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
+   MaxAmmo 10
+   AmmoConfig "{848D5DE7B2E307A1}Configs/Weapons/Ammo/Ammo_338.conf"
+   AmmoMapping +{
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
+  }
+ }
+ coords 1778.503 40 2867.299
+ angles 0 -110.018 0
+}
+$grp GenericEntity : "{D0CE0D625E3D65C6}Prefabs/Weapons/Rifles/Accuracy AX int/AccuracyAX_Optic.et" {
+ {
+  coords 1780.006 40.54 2866.897
+  angles 0 -105.9 0
+ }
+ {
+  coords 1776.951 39.999 2867.631
+  angles 0 -105.9 0
+ }
+}
+GenericEntity : "{D176A4AD5D2A3E8F}Prefabs/Weapons/Core/AccuracyAX_Base.et" {
+ coords 1779.96 40.819 2866.89
+ angles 0 -107.136 0
+}
+GenericEntity : "{D3CD1C6F8A507AA8}Prefabs/Weapons/Magazines/Magazine 10rnd ACAX/Magazine_338LM_Tracer_Red.et" {
+ coords 1778.141 39.997 2867.176
+ angles 0 -100.3 0
+}
+Projectile : "{F0D0E4717E22F04B}Prefabs/Weapons/Ammo/Ammo_338LM_Ball_250gr.et" {
+ coords 1778.673 39.912 2867.458
+ angles 89.117 -171.103 24.048
+}
+GenericEntity : "{FD191D096F8FEE9D}Prefabs/Weapons/Rifles/Accuracy AX int/Olive green/AccuracyAX_Suppressed_Olive.et" {
+ coords 1778.689 40.257 2866.566
+ angles 0 -105.442 0
+}

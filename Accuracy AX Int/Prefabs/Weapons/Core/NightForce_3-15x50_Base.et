@@ -23,34 +23,34 @@ GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOpti
    }
    SightsRanges {
     SightRangeInfo "{672479914C95EBBB}" {
-     Range 0.04 100
+     Range 0.011442 100
     }
     SightRangeInfo "{672479914CBED3A5}" {
-     Range 0.07 200
+     Range 0.1 200
     }
     SightRangeInfo "{672479914CD97356}" {
-     Range 0.09 300
+     Range 0.1206 300
     }
     SightRangeInfo "{672479914CFB989C}" {
-     Range 0.11 400
+     Range 0.16 400
     }
     SightRangeInfo "{672479914C15A5FF}" {
-     Range 0.16 500
+     Range 0.2192 500
     }
     SightRangeInfo "{672479914C37BA0B}" {
-     Range 0.18683 600
+     Range 0.28218 600
     }
     SightRangeInfo "{672479914C509ED0}" {
-     Range 0.24865 700
+     Range 0.36 700
     }
     SightRangeInfo "{672479914C72337F}" {
-     Range 0.3123 800
+     Range 0.4281 800
     }
     SightRangeInfo "{672479914D93EDEC}" {
-     Range 0.38247 900
+     Range 0.52 900
     }
     SightRangeInfo "{672479914DC67DA9}" {
-     Range 0.46101 1000
+     Range 0.6324 1000
     }
    }
    SightsFOVInfo SCR_SightsZoomFOVInfo "{672479914BA369EA}" {
@@ -128,6 +128,6 @@ GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOpti
    }
   }
  }
- coords 1776.711 39.989 2868.242
- angles 0 -1.381 0
+ coords 1776.792 39.91 2867.093
+ angles 0 -12.489 0
 }

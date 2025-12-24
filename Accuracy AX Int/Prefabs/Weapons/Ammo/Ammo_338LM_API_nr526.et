@@ -1,0 +1,36 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{62EAC20FFD251EF8}" : "{6CCC3AAFB5A64CE0}Prefabs/Weapons/Core/Components/CollisionTrigger_API.ct" {
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 915
+   InitSpeedVariation 5
+   Mass 0.0162
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 225
+    }
+   }
+   BallisticTableConfig "{F1AD513B921D037E}Configs/Weapons/AIBallisticTables/AIBT_AccuracyAX_338LM_API_nr526.conf"
+   SonicCracks "{ABAD8342FF1E1578}Sounds/Weapons/_SharedData/BulletSonicCracks/Rifle/Weapons_BulletSonicCracks_Rifle.acp"
+   SubsonicFlybys "{F957FD54EA57C9F1}Sounds/Weapons/_SharedData/BulletFlybys/Rifle/Weapons_BulletFlybys_Rifle.acp"
+   AirDrag 0.000014
+   Diameter 8.6
+   Length 40
+   MushroomingDamageMultiplier 0.025
+   TumblingDamageMultiplier 0.75
+   TumblingDecelerationCurve {
+    0 0 1 1
+   }
+   PenetrationDepth 12.5
+   PenetrationDensity 7.5
+   PenetrationSpeed 1050
+   PenetrationDirDistribution 0.3
+  }
+ }
+ coords 1778.313 39.91 2867.364
+ angles 89.416 180 -180
+ ProjectileModel "{1F1081711A2E1686}Assets/Ammo/338Projectile.xob"
+ CartridgeModel "{7F7A8F1EAD6CC381}Assets/Ammo/338Cartridge.xob"
+}
