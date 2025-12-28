@@ -1,7 +1,5 @@
 MatPBRCamo {
- AOScale 0.2
- BCRMap "{9424D367E81B8D89}Assets/Weapons/Rifle/Data/AXSR_Reacever lower_BaseColor.edds"
- NMOMap "{CBBFCAD27C3427A6}Assets/Weapons/Rifle/Data/AXSR_Reacever lower_Normal_DX.edds"
- DetailNormalMap "{8AEA57B03240C7D0}Assets/Weapons/Rifle/Data/AXSR_Reacever lower_Normal_GL.edds"
- CamoAlbedoMap "{002685E0F2FCE1DA}Assets/Weapons/Rifle/Data/Olive Green/AXSR_Reacever lower_BaseColor.edds"
+ BCRMap "{6B597FBA21409125}Assets/Weapons/Rifle/Data/Reacever lower_BCR.edds"
+ NMOMap "{5381C428F837C3BB}Assets/Weapons/Rifle/Data/Reacever lower_NMO.edds"
+ CamoAlbedoMap "{54EDA140BBC33DEF}Assets/Weapons/Rifle/Data/Olive Green/Reacever lower_BCR.edds"
 }

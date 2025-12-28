@@ -38,15 +38,9 @@ GenericEntity : "{3C9FB6869EB635BB}PrefabsEditable/Auto/Props/Military/Sandbags/
  coords 1775.515 38.931 2870.395
  angles 0 -102.86 0
 }
-$grp SCR_DestructibleEntity : "{419130031F0009C9}Prefabs/Structures/Walls/Brick/BrickWall_01/BrickWall_01_4m.et" {
- {
-  coords 1776.668 0.004 2865.834
-  angles 0 -14.528 0
- }
- {
-  coords 1781.028 0.003 2865.76
-  angles 0 -104.581 0
- }
+SCR_DestructibleEntity : "{419130031F0009C9}Prefabs/Structures/Walls/Brick/BrickWall_01/BrickWall_01_4m.et" {
+ coords 1781.028 0.003 2865.76
+ angles 0 -104.581 0
 }
 TracerProjectile : "{41DC48F3090CB379}Prefabs/Weapons/Core/Ammo_338LM_Tracer.et" {
  coords 1778.177 39.91 2867.356

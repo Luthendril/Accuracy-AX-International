@@ -1,5 +1,4 @@
-MatPBRBasic "{42E67DA296EEABB4}Assets/Weapons/Rifle/Data/Picatiny.emat" {
- BCRMap "{CE5D46AAFD334F20}Assets/Weapons/Rifle/Data/AXSR_Picatiny_BaseColor.edds"
- NMOMap "{91C65F1F691CE50F}Assets/Weapons/Rifle/Data/AXSR_Picatiny_Normal_DX.edds"
- DetailNormalMap "{D093C27D27680579}Assets/Weapons/Rifle/Data/AXSR_Picatiny_Normal_GL.edds"
+MatPBRBasic {
+ BCRMap "{31F39608D974BB54}Assets/Weapons/Rifle/Data/Picatiny_BCR.edds"
+ NMOMap "{092B2D9A0003E9CA}Assets/Weapons/Rifle/Data/Picatiny_NMO.edds"
 }

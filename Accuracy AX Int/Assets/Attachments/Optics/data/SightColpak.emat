@@ -1,7 +1,5 @@
-MatPBRBasic "{5C9D94D7ACC0FE77}Assets/Attachments/Optics/data/SightColpak.emat" {
+MatPBRBasic {
  Emissive 0 0 0 1
- AOScale 0.2
- BCRMap "{1BC69E00B22797CD}Assets/Attachments/Optics/data/AXSR_Sight Colpak_BaseColor.edds"
- NMOMap "{445D87B526083DE2}Assets/Attachments/Optics/data/AXSR_Sight Colpak_Normal_DX.edds"
- DetailNormalMap "{05081AD7687CDD94}Assets/Attachments/Optics/data/AXSR_Sight Colpak_Normal_GL.edds"
+ BCRMap "{EB7B6CCD4E8A2F2B}Assets/Attachments/Optics/data/Sight Colpak_BCR.edds"
+ NMOMap "{D3A3D75F97FD7DB5}Assets/Attachments/Optics/data/Sight Colpak_NMO.edds"
 }

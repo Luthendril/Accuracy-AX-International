@@ -1,9 +1,7 @@
 MatPBRBasic {
  Emissive 0 0 0 1
- AOScale 0.2
- BCRMap "{63EB3761B1CE4541}Assets/Magazine/Magazine_10rnd_ACAX/data/AXSR_Mag_BaseColor.edds"
+ BCRMap "{D7B426781D1FDF8A}Assets/Magazine/Magazine_10rnd_ACAX/data/Mag_BCR.edds"
  NormalPower 2
- NMOMap "{3C702ED425E1EF6E}Assets/Magazine/Magazine_10rnd_ACAX/data/AXSR_Mag_Normal_DX.edds"
+ NMOMap "{EF6C9DEAC4688D14}Assets/Magazine/Magazine_10rnd_ACAX/data/Mag_NMO.edds"
  DetailNormalPower 2
- DetailNormalMap "{7D25B3B66B950F18}Assets/Magazine/Magazine_10rnd_ACAX/data/AXSR_Mag_Normal_GL.edds"
 }
