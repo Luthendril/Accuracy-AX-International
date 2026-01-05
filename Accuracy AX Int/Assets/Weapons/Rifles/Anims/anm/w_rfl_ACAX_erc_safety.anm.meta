@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{B7B3CDDCEC4D7F3E}Assets/Weapons/Rifles/Anims/anm/w_rfl_ACAX_erc_safety.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "742_Rifle_safety_trigger"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

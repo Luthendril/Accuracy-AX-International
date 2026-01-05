@@ -53,6 +53,8 @@ MetaFileClass {
     }
     MeshParam AXSR_Trigger {
     }
+    MeshParam AXSR_MagRelease {
+    }
    }
    GeometryParams {
     GeometryParam UCX_Barrel {

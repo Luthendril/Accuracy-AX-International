@@ -1,0 +1,27 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 103
+ $node "w_mag_release" {
+  $keys q s {
+   $frame 0 48 {
+   }
+   $frame 49 51 {
+    #q 0.10731933 0 0 0.99422467
+   }
+   $frame 52 103 {
+   }
+  }
+ }
+ $events {
+  #event 48 "Weapon_SpawnMagazine" "AnimSrcEventGeneric {  Name \"Weapon_SpawnMagazine\"  MainPathOnly 0  Frame 48  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+  #event 48 "Weapon_MagRelease" "AnimSrcEventGeneric {  Name \"Weapon_MagRelease\"  MainPathOnly 0  Frame 48  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+  #event 48 "BlendIn" "AnimSrcEventGeneric {  Name \"BlendIn\"  MainPathOnly 0  Frame 48  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+  #event 50 "Sound" "AnimSrcEventGeneric {  Name \"Sound\"  MainPathOnly 0  Frame 50  FrameCount 0  UserString \"SOUND_RELOAD_MAG_INSERT\"  UserInt -1 }" -1 0 "" 0
+  #event 52 "Weapon_AttachMagazine" "AnimSrcEventGeneric {  Name \"Weapon_AttachMagazine\"  MainPathOnly 0  Frame 52  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+  #event 103 "BlendOut2" "AnimSrcEventGeneric {  Name \"BlendOut2\"  MainPathOnly 0  Frame 103  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+ }
+ $custProps {
+  #custProp "profile" "Weapons_MagRelease"
+ }
+}

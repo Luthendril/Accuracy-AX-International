@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{A49A357D862A175A}Assets/Weapons/Rifles/Anims/anm/w_rfl_ACAX_erc_insert_mag.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "Weapons_MagRelease"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -9,7 +9,7 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
    Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
     ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
      Name "338LM AP nr485"
-     Description "338LM 250gr for the Accuracy AX Int."
+     Description "338LM for the Accuracy AX Int."
     }
     ItemPhysAttributes ItemPhysicalAttributes "{6724799403C1280B}" {
      Weight 0.25
@@ -51,6 +51,6 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
    Object "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
   }
  }
- coords 1778.343 39.996 2866.801
+ coords 1778.503 40 2867.299
  angles 0 -110.018 0
 }

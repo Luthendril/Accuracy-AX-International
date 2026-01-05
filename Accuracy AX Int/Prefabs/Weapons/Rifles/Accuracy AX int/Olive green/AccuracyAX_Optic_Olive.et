@@ -32,6 +32,30 @@ GenericEntity : "{D176A4AD5D2A3E8F}Prefabs/Weapons/Core/AccuracyAX_Base.et" {
      SourceMaterial "Reaceverower"
      AssignedMaterial "{F8AAC5C2B280B7EF}Assets/Weapons/Rifle/Data/Olive Green/Reaceverower_Camo1.emat"
     }
+    MaterialAssignClass "{67249CA7D2276D57}" {
+     SourceMaterial "Barrel"
+     AssignedMaterial "{C328A559ABA81277}Assets/Weapons/Rifle/Data/Olive Green/Barrel_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D4F}" {
+     SourceMaterial "Butt"
+     AssignedMaterial "{94162CE05C845870}Assets/Weapons/Rifle/Data/Olive Green/Butt_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D34}" {
+     SourceMaterial "Handguard"
+     AssignedMaterial "{E67F2DC7777F1530}Assets/Weapons/Rifle/Data/Olive Green/Handguard_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D3B}" {
+     SourceMaterial "Picatiny"
+     AssignedMaterial "{92D9DC50B00FC432}Assets/Weapons/Rifle/Data/Olive Green/Picatiny_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D25}" {
+     SourceMaterial "ReaceverUpper"
+     AssignedMaterial "{E6FD128B6730C0BF}Assets/Weapons/Rifle/Data/Olive Green/ReaceverUpper_Camo1.emat"
+    }
+    MaterialAssignClass "{67249CA7D2276D2E}" {
+     SourceMaterial "Reaceverower"
+     AssignedMaterial "{F8AAC5C2B280B7EF}Assets/Weapons/Rifle/Data/Olive Green/Reaceverower_Camo1.emat"
+    }
    }
   }
   RigidBody "{671E851461756257}" {
@@ -45,7 +69,7 @@ GenericEntity : "{D176A4AD5D2A3E8F}Prefabs/Weapons/Core/AccuracyAX_Base.et" {
   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
    Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
     ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
-     Name "Accuracy AX"
+     Name "Accuracy AX - Olive"
      Description "Accuracy AX Int."
      m_bShowWeaponName 1
      m_MagIndicator SCR_MagazineIndicatorConfiguration "{6720F02CDD88B24C}" {
@@ -294,6 +318,6 @@ GenericEntity : "{D176A4AD5D2A3E8F}Prefabs/Weapons/Core/AccuracyAX_Base.et" {
    }
   }
  }
- coords 1778.508 40.574 2866.054
+ coords 1778.668 40.578 2866.552
  angles 0 -104.407 0
 }

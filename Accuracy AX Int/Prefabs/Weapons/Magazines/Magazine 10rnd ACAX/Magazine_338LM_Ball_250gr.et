@@ -33,10 +33,10 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
    MagazineWell MagazineWellACAX "{6726F3E3C514054B}" {
    }
    UIInfo MagazineUIInfo "{57126733AA401586}" {
-    Name "338LM AP nr485"
+    Name "338LM Ball"
     Description "338LM for the Accuracy AX Int."
     m_sAmmoCaliber "8.6mm"
-    m_sAmmoType "AP"
+    m_sAmmoType "Ball"
     m_bShowAmmoTypeText 1
     m_eAmmoTypeFlags FMJ
    }
@@ -51,6 +51,6 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
    Object "{121C32520112A362}Assets/Magazine/Magazine_10rnd_ACAX/Magazine_ACAX.xob"
   }
  }
- coords 1778.537 40 2866.83
+ coords 1778.697 40.004 2867.328
  angles 0 -107.949 0
 }

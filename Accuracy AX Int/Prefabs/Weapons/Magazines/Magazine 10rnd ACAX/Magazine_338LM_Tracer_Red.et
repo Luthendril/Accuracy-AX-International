@@ -36,6 +36,7 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
     Name "338LM Tracer"
     Description "338LM for the Accuracy AX Int."
     m_sAmmoCaliber "8.6mm"
+    m_sAmmoType "Tracer Red"
     m_bShowAmmoTypeText 1
     m_eAmmoTypeFlags 3
    }

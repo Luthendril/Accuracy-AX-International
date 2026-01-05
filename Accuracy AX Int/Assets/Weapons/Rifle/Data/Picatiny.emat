@@ -1,4 +1,4 @@
-MatPBRBasic {
+MatPBRBasic "{42E67DA296EEABB4}Assets/Weapons/Rifle/Data/Picatiny.emat" {
  BCRMap "{31F39608D974BB54}Assets/Weapons/Rifle/Data/Picatiny_BCR.edds"
  NMOMap "{092B2D9A0003E9CA}Assets/Weapons/Rifle/Data/Picatiny_NMO.edds"
 }

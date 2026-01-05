@@ -5,13 +5,13 @@ AnimSetInstanceSource "{5E9E224E83BCBC88}" {
    Resource "{95702FA03426C2A5}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_pne_rack_bolt.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Reload_InsertMag" {
-   Resource "{8CD5205B631C6626}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_erc_insert_mag.anm"
+   Resource "{A49A357D862A175A}Assets/Weapons/Rifles/Anims/anm/w_rfl_ACAX_erc_insert_mag.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Reload_InsertMag" {
    Resource "{38423DE22CBF4282}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_pne_insert_mag.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Reload_RemoveMag" {
-   Resource "{47B15FAFA56A544C}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_erc_remove_mag.anm"
+   Resource "{6FFE4A89405C2530}Assets/Weapons/Rifles/Anims/anm/w_rfl_ACAX_erc_remove_mag.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Reload_RemoveMag" {
    Resource "{F3264216EAC970E8}Assets/Weapons/Rifles/m40a5/Anims/anm/w_rfl_m40a5_pne_remove_mag.anm"
@@ -80,7 +80,7 @@ AnimSetInstanceSource "{5E9E224E83BCBC88}" {
    Resource "{64C0B93BCA8C9AC5}Assets/Weapons/Rifles/M14/anims/anm/w_rfl_M21_switch_mode_empty.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Safety" {
-   Resource "{1AF91ECC4DE18CC5}Assets/Weapons/Rifles/Anims/anm/w_ACAX_safety.anm"
+   Resource "{B7B3CDDCEC4D7F3E}Assets/Weapons/Rifles/Anims/anm/w_rfl_ACAX_erc_safety.anm"
   }
  }
  RBF AnimSetInstanceSourceRBFArray "{59F8875C18E23C38}" {

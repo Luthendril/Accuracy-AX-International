@@ -1,0 +1,27 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 3
+ $node "w_safety" {
+  $keys t q {
+   $frame 0 1 {
+    #t 0.0195353 0.0630782 -0.0727825
+    #q -0.34256458 0 0 0.93949431
+   }
+   $frame 2 3 {
+    #q 0.34524742 0 0 0.93851179
+   }
+  }
+  $node "w_trigger" {
+   $keys t q {
+    $frame 0 3 {
+     #t -0.0014056 0.0147266 -0.0821359
+     #q -0.05918781 0 0 0.99824691
+    }
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "742_Rifle_safety_trigger"
+ }
+}

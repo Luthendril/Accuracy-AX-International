@@ -6,9 +6,18 @@ GenericEntity : "{966B4E5523D2F167}Prefabs/Weapons/Core/NightForce_3-15x50_Base.
     SightRangeInfo "{672479914C95EBBB}" {
      Range 0.04 100
     }
+    SightRangeInfo "{672479914C72337F}" {
+     Range 0.4281 800
+    }
+    SightRangeInfo "{672479914D93EDEC}" {
+     Range 0.52 900
+    }
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{672479914BA369EA}" {
+    m_fStepZoomSize 1
    }
   }
  }
- coords 1778.594 39.906 2866.166
+ coords 1780.348 39.91 2867.055
  angles 0 -103.76 0
 }

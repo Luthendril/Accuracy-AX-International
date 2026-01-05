@@ -1,0 +1,26 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 86
+ $node "w_mag_release" {
+  $keys q s {
+   $frame 0 21 {
+   }
+   $frame 22 23 {
+    #q 0.08317823 0 0 0.99653476
+   }
+   $frame 24 86 {
+   }
+  }
+ }
+ $events {
+  #event 21 "Weapon_MagRelease" "AnimSrcEventGeneric {  Name \"Weapon_MagRelease\"  MainPathOnly 0  Frame 21  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+  #event 32 "Weapon_DetachMagazine" "AnimSrcEventGeneric {  Name \"Weapon_DetachMagazine\"  MainPathOnly 0  Frame 32  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+  #event 32 "Sound" "AnimSrcEventGeneric {  Name \"Sound\"  MainPathOnly 0  Frame 32  FrameCount 0  UserString \"SOUND_RELOAD_MAG_REMOVE\"  UserInt -1 }" -1 0 "" 0
+  #event 73 "Weapon_DespawnMagazine" "AnimSrcEventGeneric {  Name \"Weapon_DespawnMagazine\"  MainPathOnly 0  Frame 73  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+  #event 73 "BlendOut" "AnimSrcEventGeneric {  Name \"BlendOut\"  MainPathOnly 0  Frame 73  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+ }
+ $custProps {
+  #custProp "profile" "Weapons_MagRelease"
+ }
+}
